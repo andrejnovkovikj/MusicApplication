@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ArtistApplication.Domain.Domain.Song>
+
+@{
+    ViewData["Title"] = "Songs Index";
+}
+
+<div class="container">
+    <h1 class="my-4 text-center">Songs </h1>
+
+
+    @if (Model != null && Model.Any())
+    {
+        <ul class="list-unstyled text-center">
+            @foreach (var song in Model)
+            {
+                <li class="mb-3">
+                    <a asp-action="Details" asp-route-id="@song.Id"><strong></strong> @song.Title <br /> </a>
+                    @if (!string.IsNullOrEmpty(song.FileName))
+                    {
+                        var audioFileUrl = Url.Content($"~/uploads/{song.FileName}");
+                        <audio controls class="mt-2">
+                            <source src="@audioFileUrl" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    }
+                    else
+                    {
+                        <p>No audio file available.</p>
+                    }
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p class="text-center">No songs available for this album.</p>
+    }
+    <p class="text-center">
+        <a asp-action="Create" class="btn btn-primary">Create New</a>
+    </p>
+</div>

@@ -1,0 +1,65 @@
+﻿@model ArtistApplication.Domain.ViewModel.AlbumDetailsViewModel
+
+@{
+    ViewData["Title"] = "Album Details";
+}
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <hr />
+            <div class="text-center mb-4">
+                @if (!string.IsNullOrEmpty(Model.Album?.PictureUrl))
+                {
+                    var imageUrl = Url.Content(Model.Album.PictureUrl);
+                    <img src="@imageUrl" alt="Album Picture" class="img-fluid" style="max-width: 300px; height: auto;" />
+                }
+                else
+                {
+                    <p>No picture available.</p>
+                }
+            </div>
+            <div class="text-center">
+                <h2>@Model.Album?.Title</h2>
+                <p><strong>Artist:</strong> @Model.Artist?.Name</p>
+                <p><strong>Genre:</strong> @Model.Genre?.Name</p>
+                <p><strong>Year:</strong> @Model.Album?.Year</p>
+            </div>
+            <h4 class="text-center mt-4">Songs</h4>
+            @if (Model.Songs != null && Model.Songs.Any())
+            {
+                <ul class="list-unstyled text-center">
+                    @foreach (var song in Model.Songs)
+                    {
+                        <li class="mb-3">
+                            <a asp-action="Details" asp-controller="Songs" asp-route-id="@song.Id"><strong></strong> @song.Title <br /> </a>
+
+                            @if (!string.IsNullOrEmpty(song.FileName))
+                            {
+                                var audioFileUrl = Url.Content($"~/uploads/{song.FileName}");
+                                <audio controls class="mt-2">
+                                    <source src="@audioFileUrl" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            }
+                            else
+                            {
+                                <p>No audio file available.</p>
+                            }
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p class="text-center">No songs available for this album.</p>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="text-center mt-4">
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Album?.Id">Edit</a> |
+    <a class="btn btn-secondary" asp-action="Index">Back to List</a>
+</div>

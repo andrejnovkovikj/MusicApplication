@@ -1,0 +1,15 @@
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\ArtistApplication.Repository.csproj.AssemblyReference.cache
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\ArtistApplication.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\ArtistApplication.Repository.AssemblyInfoInputs.cache
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\ArtistApplication.Repository.AssemblyInfo.cs
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\ArtistApplication.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\bin\Debug\net8.0\ArtistApplication.Repository.deps.json
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\bin\Debug\net8.0\ArtistApplication.Repository.dll
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\bin\Debug\net8.0\ArtistApplication.Repository.pdb
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\bin\Debug\net8.0\ArtistApplication.Domain.dll
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\bin\Debug\net8.0\ArtistApplication.Domain.pdb
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\ArtistAp.E642E1F9.Up2Date
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\ArtistApplication.Repository.dll
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\refint\ArtistApplication.Repository.dll
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\ArtistApplication.Repository.pdb
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\ref\ArtistApplication.Repository.dll

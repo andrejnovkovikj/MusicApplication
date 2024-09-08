@@ -1,0 +1,25 @@
+﻿@model ArtistApplication.Domain.Domain.Artist
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div>
+    <h4>Artist</h4>
+    <hr />
+    <div class="artist-details">
+        <h2>@Model.Name</h2>
+        @if (!string.IsNullOrEmpty(Model.PictureUrl))
+        {
+            var imageUrl = Url.Content(Model.PictureUrl);
+            <img src="@imageUrl" alt="Artist Picture" style="max-width: 200px; height: 200px;" />
+        }
+        else
+        {
+            <p>No picture available.</p>
+        }
+
+        
+    </div>
+</div>
