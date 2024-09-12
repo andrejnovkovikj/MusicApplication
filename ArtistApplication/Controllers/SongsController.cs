@@ -28,9 +28,18 @@ namespace ArtistApplication.Web.Controllers
         }
 
         // GET: Songs
-        public IActionResult Index()
+        public IActionResult Index(string searchString)
         {
             var songs = _songService.GetSongs();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                searchString = searchString.ToLower();
+                songs = songs.Where(s => s.Title.ToLower().Contains(searchString)).ToList();
+            }
+
+            ViewBag.SearchString = searchString; 
+
             return View(songs);
         }
 

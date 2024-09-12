@@ -1008,6 +1008,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\202e3080-367c-47ec-9d8f-c1ac53a67302_Travis Scott - MODERN JAM (Official Audio) ft. Teezo Touchdown (2).mp3))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\485ac5e3-2bb2-4bfb-89ad-3bf98bb2703c_David Guetta &amp; Chris Willis - Gettin Over You (Feat. Fergie &amp; Lmfao).mp3))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArtistApplication.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArtistApplication.Web</BasePath>
+      <RelativePath>uploads/485ac5e3-2bb2-4bfb-89ad-3bf98bb2703c_David Guetta &amp; Chris Willis - Gettin Over You (Feat. Fergie &amp; Lmfao).mp3</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\485ac5e3-2bb2-4bfb-89ad-3bf98bb2703c_David Guetta &amp; Chris Willis - Gettin Over You (Feat. Fergie &amp; Lmfao).mp3))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\4d35bc83-939a-48bc-abcf-0c3bcecd89cc_Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3))">
       <SourceType>Package</SourceType>
       <SourceId>ArtistApplication.Web</SourceId>
@@ -1039,6 +1055,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\50440619-a240-438b-b7ec-ab09283f12bc_Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6351de68-a1c4-49bd-add9-1d2974a1ae6d_On Sight.mp3))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArtistApplication.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArtistApplication.Web</BasePath>
+      <RelativePath>uploads/6351de68-a1c4-49bd-add9-1d2974a1ae6d_On Sight.mp3</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6351de68-a1c4-49bd-add9-1d2974a1ae6d_On Sight.mp3))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\71d2f30c-ac38-4d10-a110-b4c4e2daaafe_Travis Scott - MY EYES (Official Audio).mp3))">
       <SourceType>Package</SourceType>
@@ -1072,6 +1104,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\75afe47e-6abd-4708-af7c-1a56c7f7c9da_Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\8e793eb7-a714-4a63-ab01-4e0535c62bf6_Drake - Middle of the Ocean (Audio).mp3))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArtistApplication.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArtistApplication.Web</BasePath>
+      <RelativePath>uploads/8e793eb7-a714-4a63-ab01-4e0535c62bf6_Drake - Middle of the Ocean (Audio).mp3</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\8e793eb7-a714-4a63-ab01-4e0535c62bf6_Drake - Middle of the Ocean (Audio).mp3))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\9054faa9-ddc7-4b06-8ad6-0029cae67579_Travis Scott - HYAENA (Official Audio).mp3))">
       <SourceType>Package</SourceType>
       <SourceId>ArtistApplication.Web</SourceId>
@@ -1087,6 +1135,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\9054faa9-ddc7-4b06-8ad6-0029cae67579_Travis Scott - HYAENA (Official Audio).mp3))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\95df994a-13bc-44d4-983a-07768ef9ac31_Tame Impala - New Person, Same Old Mistakes (Audio) (1).mp3))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArtistApplication.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArtistApplication.Web</BasePath>
+      <RelativePath>uploads/95df994a-13bc-44d4-983a-07768ef9ac31_Tame Impala - New Person, Same Old Mistakes (Audio) (1).mp3</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\95df994a-13bc-44d4-983a-07768ef9ac31_Tame Impala - New Person, Same Old Mistakes (Audio) (1).mp3))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\af4694c2-da78-4681-9e11-55e795ad4278_Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3))">
       <SourceType>Package</SourceType>
@@ -1119,6 +1183,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b55ca032-be2c-4ba8-8407-a36fa9b139c4_Travis Scott - MODERN JAM (Official Audio) ft. Teezo Touchdown (2).mp3))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cc170b63-9c9f-4942-bc77-ee5e10e468c8_Frank Ocean - Nights.mp3))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArtistApplication.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArtistApplication.Web</BasePath>
+      <RelativePath>uploads/cc170b63-9c9f-4942-bc77-ee5e10e468c8_Frank Ocean - Nights.mp3</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cc170b63-9c9f-4942-bc77-ee5e10e468c8_Frank Ocean - Nights.mp3))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ec8e6aa7-a813-4868-8e92-77c459bcd974_Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3))">
       <SourceType>Package</SourceType>

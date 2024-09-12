@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TYsJEA9jbniCfwa405Zw4sbBWGvJ37OaNoS6N7kVfBg=",
+  "Hash": "WE0+4nD38HfUab475Z+CCVnL/5DVYJiL2NEks6fgmLs=",
   "Source": "ArtistApplication.Web",
   "BasePath": "_content/ArtistApplication.Web",
   "Mode": "Default",
@@ -2373,6 +2373,25 @@
       "OriginalItemSpec": "wwwroot\\uploads\\202e3080-367c-47ec-9d8f-c1ac53a67302_Travis Scott - MODERN JAM (Official Audio) ft. Teezo Touchdown (2).mp3"
     },
     {
+      "Identity": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\uploads\\485ac5e3-2bb2-4bfb-89ad-3bf98bb2703c_David Guetta & Chris Willis - Gettin Over You (Feat. Fergie & Lmfao).mp3",
+      "SourceId": "ArtistApplication.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\",
+      "BasePath": "_content/ArtistApplication.Web",
+      "RelativePath": "uploads/485ac5e3-2bb2-4bfb-89ad-3bf98bb2703c_David Guetta & Chris Willis - Gettin Over You (Feat. Fergie & Lmfao).mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\485ac5e3-2bb2-4bfb-89ad-3bf98bb2703c_David Guetta & Chris Willis - Gettin Over You (Feat. Fergie & Lmfao).mp3"
+    },
+    {
       "Identity": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\uploads\\4d35bc83-939a-48bc-abcf-0c3bcecd89cc_Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3",
       "SourceId": "ArtistApplication.Web",
       "SourceType": "Discovered",
@@ -2409,6 +2428,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\50440619-a240-438b-b7ec-ab09283f12bc_Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3"
+    },
+    {
+      "Identity": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\uploads\\6351de68-a1c4-49bd-add9-1d2974a1ae6d_On Sight.mp3",
+      "SourceId": "ArtistApplication.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\",
+      "BasePath": "_content/ArtistApplication.Web",
+      "RelativePath": "uploads/6351de68-a1c4-49bd-add9-1d2974a1ae6d_On Sight.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\6351de68-a1c4-49bd-add9-1d2974a1ae6d_On Sight.mp3"
     },
     {
       "Identity": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\uploads\\71d2f30c-ac38-4d10-a110-b4c4e2daaafe_Travis Scott - MY EYES (Official Audio).mp3",
@@ -2449,6 +2487,25 @@
       "OriginalItemSpec": "wwwroot\\uploads\\75afe47e-6abd-4708-af7c-1a56c7f7c9da_Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3"
     },
     {
+      "Identity": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\uploads\\8e793eb7-a714-4a63-ab01-4e0535c62bf6_Drake - Middle of the Ocean (Audio).mp3",
+      "SourceId": "ArtistApplication.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\",
+      "BasePath": "_content/ArtistApplication.Web",
+      "RelativePath": "uploads/8e793eb7-a714-4a63-ab01-4e0535c62bf6_Drake - Middle of the Ocean (Audio).mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\8e793eb7-a714-4a63-ab01-4e0535c62bf6_Drake - Middle of the Ocean (Audio).mp3"
+    },
+    {
       "Identity": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\uploads\\9054faa9-ddc7-4b06-8ad6-0029cae67579_Travis Scott - HYAENA (Official Audio).mp3",
       "SourceId": "ArtistApplication.Web",
       "SourceType": "Discovered",
@@ -2466,6 +2523,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\9054faa9-ddc7-4b06-8ad6-0029cae67579_Travis Scott - HYAENA (Official Audio).mp3"
+    },
+    {
+      "Identity": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\uploads\\95df994a-13bc-44d4-983a-07768ef9ac31_Tame Impala - New Person, Same Old Mistakes (Audio) (1).mp3",
+      "SourceId": "ArtistApplication.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\",
+      "BasePath": "_content/ArtistApplication.Web",
+      "RelativePath": "uploads/95df994a-13bc-44d4-983a-07768ef9ac31_Tame Impala - New Person, Same Old Mistakes (Audio) (1).mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\95df994a-13bc-44d4-983a-07768ef9ac31_Tame Impala - New Person, Same Old Mistakes (Audio) (1).mp3"
     },
     {
       "Identity": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\uploads\\af4694c2-da78-4681-9e11-55e795ad4278_Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3",
@@ -2504,6 +2580,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\b55ca032-be2c-4ba8-8407-a36fa9b139c4_Travis Scott - MODERN JAM (Official Audio) ft. Teezo Touchdown (2).mp3"
+    },
+    {
+      "Identity": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\uploads\\cc170b63-9c9f-4942-bc77-ee5e10e468c8_Frank Ocean - Nights.mp3",
+      "SourceId": "ArtistApplication.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\",
+      "BasePath": "_content/ArtistApplication.Web",
+      "RelativePath": "uploads/cc170b63-9c9f-4942-bc77-ee5e10e468c8_Frank Ocean - Nights.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cc170b63-9c9f-4942-bc77-ee5e10e468c8_Frank Ocean - Nights.mp3"
     },
     {
       "Identity": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\uploads\\ec8e6aa7-a813-4868-8e92-77c459bcd974_Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3",

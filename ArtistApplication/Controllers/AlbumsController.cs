@@ -29,12 +29,38 @@ namespace ArtistApplication.Web.Controllers
                 _songService = songService;
             }
 
-            // GET: Albums
-            public IActionResult Index()
-            {
-                var albums = _albumService.GetAlbums();
-                return View(albums);
-            }
+        // GET: Albums
+        public IActionResult Index(string? searchString)
+        {
+            var albums = _albumService.GetAlbums(); 
+            var artists = _artistService.GetArtists(); 
+            var genres = _genreService.GetGenres();
+
+            var artistsFilter = artists
+                .Where(a => a.Name != null && a.Name.Contains(searchString ?? "", StringComparison.OrdinalIgnoreCase))
+                .ToList();
+            var genresFilter = genres
+                .Where(a => a.Name != null && a.Name.Contains(searchString ?? "", StringComparison.OrdinalIgnoreCase))
+                .ToList();
+
+
+            var artistsFilteredIds = artistsFilter.Select(a => a.Id).ToList();
+            var genresFiltererIds = genresFilter.Select(a => a.Id).ToList();
+
+            var filteredAlbums = albums
+                .Where(a => (a.ArtistId != null && artistsFilteredIds.Contains(a.ArtistId))
+                     || (a.GenreId != null && genresFiltererIds.Contains(a.GenreId))
+                     || (a.Title != null && a.Title.Contains(searchString)))
+                .ToList();
+
+            ViewBag.SearchString = searchString;
+            ViewBag.NoDataMessage = filteredAlbums.Any() ? null : "No albums found.";
+
+            return View(filteredAlbums);
+        }
+
+
+
 
         // GET: Albums/Details/5
         public IActionResult Details(Guid id)

@@ -28,10 +28,21 @@ namespace ArtistApplication.Web.Controllers
 
 
         // GET: Artists
-        public IActionResult Index()
+        public IActionResult Index(string? searchString)
         {
             var artists = _artistService.GetArtists();
-            return View(artists);
+
+            // Ensure searchString is not null and handle case insensitivity
+            var searchLower = searchString?.ToLower() ?? string.Empty;
+
+            var filteredArtists = artists
+                .Where(a => !string.IsNullOrEmpty(a.Name) && a.Name.ToLower().Contains(searchLower))
+                .ToList();
+
+            ViewBag.SearchString = searchString;
+            ViewBag.NoDataMessage = filteredArtists.Any() ? null : "No artists found.";
+
+            return View(filteredArtists);
         }
 
         // GET: Artists/Details/5

@@ -274,3 +274,4 @@ C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication\
 C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication\bin\Debug\net8.0\NAudio.Wasapi.dll
 C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication\bin\Debug\net8.0\NAudio.WinMM.dll
 C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication\bin\Debug\net8.0\TagLibSharp.dll
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication\obj\Debug\net8.0\ArtistApplication.Web.sourcelink.json
