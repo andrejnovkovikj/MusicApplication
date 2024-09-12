@@ -32,7 +32,6 @@ namespace ArtistApplication.Web.Controllers
         {
             var artists = _artistService.GetArtists();
 
-            // Ensure searchString is not null and handle case insensitivity
             var searchLower = searchString?.ToLower() ?? string.Empty;
 
             var filteredArtists = artists
