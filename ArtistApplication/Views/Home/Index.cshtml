@@ -2,6 +2,54 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center border-primary">
-    <h1 class="text-light display-4">Welcome To The Page!</h1>
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="text-light display-4">Welcome To The Page!</h1>
+    </div>
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <div class="row mt-5 justify-content-center">
+            <!-- Liked Songs Tile -->
+            <div class="col-md-4">
+                <a href="@Url.Action("MyLikedSongs", "Songs")" class="text-decoration-none">
+                    <div class="card text-center border-dark" style="background-color: #808080; border-radius: 10px;">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Liked Songs</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Privacy Tile -->
+            <div class="col-md-4">
+                <a href="@Url.Action("Privacy", "Home")" class="text-decoration-none">
+                    <div class="card text-center border-dark" style="background-color: #808080; border-radius: 10px;">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Privacy</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Browse Tile -->
+        <div class="row mt-5 justify-content-center">
+            <div class="col-md-4">
+                <a href="@Url.Action("Browse", "Home")" class="text-decoration-none">
+                    <div class="card text-center border-dark" style="background-color: #808080; border-radius: 10px;">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Browse</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="text-center mt-5">
+            <p class="text-warning">Please log in to access your Liked Songs, Privacy, and Browse content.</p>
+        </div>
+    }
 </div>

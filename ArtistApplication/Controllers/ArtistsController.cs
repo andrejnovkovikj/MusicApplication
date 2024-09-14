@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using ArtistApplication.Domain.Domain;
 using ArtistApplication.Repository;
 using ArtistApplication.Service.Interface;
+using ArtistApplication.Domain.ViewModel;
 
 namespace ArtistApplication.Web.Controllers
 {
@@ -58,8 +59,17 @@ namespace ArtistApplication.Web.Controllers
                 return NotFound();
             }
 
-            return View(artist);
+            var albums = _albumService.GetAlbums().Where(s => s.ArtistId == id).ToList();
+
+            var viewModel = new ArtistDetailsViewModel
+            {
+                Artist = artist,
+                Albums = albums
+            };
+
+            return View(viewModel);
         }
+
 
         // GET: Artists/Create
         public IActionResult Create()

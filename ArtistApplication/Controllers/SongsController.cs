@@ -9,6 +9,8 @@ using ArtistApplication.Domain.Domain;
 using ArtistApplication.Repository;
 using ArtistApplication.Service.Interface;
 using ArtistApplication.Domain.ViewModel;
+using ArtistApplication.Service.Implementation;
+using System.Security.Claims;
 
 namespace ArtistApplication.Web.Controllers
 {
@@ -18,29 +20,113 @@ namespace ArtistApplication.Web.Controllers
         private readonly IArtistService _artistService;
         private readonly IGenreService _genreService;
         private readonly ISongService _songService;
+        private readonly ILikedSongService _likedSongService;
 
-        public SongsController(IAlbumService albumService, IArtistService artistService, IGenreService genreService, ISongService songService)
+        public SongsController(IAlbumService albumService, IArtistService artistService, IGenreService genreService, ISongService songService, ILikedSongService likedSongService)
         {
             _albumService = albumService;
             _artistService = artistService;
             _genreService = genreService;
             _songService = songService;
+            _likedSongService = likedSongService;
         }
+
+        [HttpPost]
+        public IActionResult Like(Guid songId)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                _likedSongService.LikeSong(userId, songId);
+            }
+
+            return RedirectToAction("MyLikedSongs");
+        }
+
+        [HttpPost]
+        public IActionResult Unlike(Guid songId)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                _likedSongService.UnlikeSong(userId, songId);
+            }
+            return RedirectToAction("MyLikedSongs");
+        }
+
+        [HttpGet]
+        public IActionResult MyLikedSongs()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                // Fetch the liked songs for the user
+                var likedSongs = _likedSongService.GetLikedSongsByUser(userId);
+
+                // Prepare a list of LikedSongsViewModel
+                var viewModel = new List<LikedSongsViewModel>();
+
+                foreach (var song in likedSongs)
+                {
+                    // Assuming you have methods to get the related entities
+                    var album = _albumService.GetAlbumById(song.AlbumId);
+                    var artist = _artistService.GetArtistById(album?.ArtistId ?? Guid.Empty);
+                    var genre = _genreService.GetGenreById(album?.GenreId ?? Guid.Empty);
+
+                    viewModel.Add(new LikedSongsViewModel
+                    {
+                        Song = song,
+                        Album = album,
+                        Artist = artist,
+                        Genre = genre
+                    });
+                }
+
+                // Populate ViewBag with the list of liked song IDs
+                ViewBag.LikedSongs = likedSongs.Select(ls => ls.Id).ToList();
+
+                return View(viewModel);
+            }
+
+            return RedirectToAction("Index");
+        }
+
 
         // GET: Songs
         public IActionResult Index(string searchString)
         {
-            var songs = _songService.GetSongs();
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                var songs = _songService.GetSongs();
 
-            if (!string.IsNullOrEmpty(searchString))
-            {
-                searchString = searchString.ToLower();
-                songs = songs.Where(s => s.Title.ToLower().Contains(searchString)).ToList();
-            }
+                // Get albums for the songs
+                var albums = _albumService.GetAlbums(); // Assuming you have a method to get all albums
 
-            ViewBag.SearchString = searchString; 
+                // Filter songs by search string
+                if (!string.IsNullOrEmpty(searchString))
+                {
+                    searchString = searchString.ToLower();
+                    songs = songs.Where(s => s.Title.ToLower().Contains(searchString)).ToList();
+                }
 
-            return View(songs);
+                // Get the list of liked songs for the current user
+                var likedSongs = new List<Guid>();
+                if (userId != null)
+                {
+                    likedSongs = _likedSongService.GetLikedSongsByUser(userId).Select(s => s.Id).ToList();
+                }
+
+                // Prepare the view model
+                var viewModel = songs.Select(song => new SongViewModel
+                {
+                    Song = song,
+                    Album = albums.FirstOrDefault(album => album.Id == song.AlbumId) // Fetch the related album
+                }).ToList();
+
+                ViewBag.LikedSongs = likedSongs;
+                ViewBag.SearchString = searchString;
+
+                return View(viewModel);
+            
         }
 
         // GET: Songs/Details/5

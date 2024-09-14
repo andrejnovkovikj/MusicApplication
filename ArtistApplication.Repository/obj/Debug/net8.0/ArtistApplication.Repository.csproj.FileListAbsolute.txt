@@ -13,3 +13,4 @@ C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.
 C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\refint\ArtistApplication.Repository.dll
 C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\ArtistApplication.Repository.pdb
 C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\ref\ArtistApplication.Repository.dll
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Repository\obj\Debug\net8.0\ArtistApplication.Repository.sourcelink.json

@@ -1,12 +1,11 @@
-﻿@model IEnumerable<ArtistApplication.Domain.Domain.Song>
+﻿@model IEnumerable<ArtistApplication.Domain.ViewModel.SongViewModel>
 
 @{
     ViewData["Title"] = "Songs Index";
 }
 
-<div class="container">
-    <h1 class="my-4 text-center">Songs</h1>
-
+<div class="container" style="max-width: 800px;">
+    <h2 class="text-center mb-4"> Songs</h2>    
     <div class="text-center mb-4">
         <form asp-controller="Songs" asp-action="Index" method="get">
             <div class="input-group">
@@ -18,26 +17,102 @@
 
     @if (Model != null && Model.Any())
     {
-        <ul class="list-unstyled text-center">
-            @foreach (var song in Model)
-            {
-                <li class="mb-3">
-                    <a asp-action="Details" asp-route-id="@song.Id"><strong>@song.Title</strong></a> <br />
-                    @if (!string.IsNullOrEmpty(song.FileName))
-                    {
-                        var audioFileUrl = Url.Content($"~/uploads/{song.FileName}");
-                        <audio controls class="mt-2">
-                            <source src="@audioFileUrl" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                        </audio>
-                    }
-                    else
-                    {
-                        <p>No audio file available.</p>
-                    }
-                </li>
-            }
-        </ul>
+        <table class="table table-transparent custom-table">
+            <thead>
+                <tr>
+                    <th style="color:white"></th>
+                    <th style="color:white"> </th>
+                    <th style="color:white"> </th>
+                    <th style="color:white"></th>
+                    <th style="color:white"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.Album?.PictureUrl))
+                            {
+                                var imageUrl = Url.Content(item.Album.PictureUrl);
+                                <img src="@imageUrl" alt="Album Picture" class="img-fluid image-margin" style="max-width: 50px; height: auto;" />
+                            }
+                            else
+                            {
+                                <p>No picture available.</p>
+                            }
+                        </td>
+
+                        <td>
+                            <div>
+                                <strong style="color:white">@item.Song?.Title</strong>
+                                <br />
+                                <em style="color:white">@item.Album?.Title</em>
+                            </div>
+                        </td>
+
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.Song.FileName))
+                            {
+                                var audioFileUrl = Url.Content($"~/uploads/{item.Song.FileName}");
+                                <audio controls class="mt-2">
+                                    <source src="@audioFileUrl" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            }
+                            else
+                            {
+                                <p>No audio file available.</p>
+                            }
+                        </td>
+
+                        <td>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle custom-burger-icon" type="button" id="dropdownMenuButton-@item.Song.Id" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="burger-lines"></span>
+                                    <span class="burger-lines"></span>
+                                    <span class="burger-lines"></span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton-@item.Song.Id">
+                                    <li>
+                                        @if (ViewBag.LikedSongs != null && ((List<Guid>)ViewBag.LikedSongs).Contains(item.Song.Id))
+                                        {
+                                            @using (Html.BeginForm("Unlike", "Songs", FormMethod.Post, new { @id = "unlike-form-" + item.Song.Id }))
+                                            {
+                                                @Html.Hidden("songId", item.Song.Id)
+                                                <button type="submit" class="dropdown-item" onclick="handleUnlike('@item.Song.Id'); return false;">Unlike</button>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            @using (Html.BeginForm("Like", "Songs", FormMethod.Post, new { @id = "like-form-" + item.Song.Id }))
+                                            {
+                                                @Html.Hidden("songId", item.Song.Id)
+                                                <button type="submit" class="dropdown-item" onclick="handleLike('@item.Song.Id'); return false;">Like</button>
+                                            }
+                                        }
+                                    </li>
+                                    <li>
+                                        <a asp-action="Edit" asp-route-id="@item.Song.Id" class="dropdown-item">Edit</a>
+                                    </li>
+                                    <li>
+                                        <a asp-action="Details" asp-route-id="@item.Song.Id" class="dropdown-item">Details</a>
+                                    </li>
+                                    <li>
+                                        @using (Html.BeginForm("Delete", "Songs", FormMethod.Post, new { @id = "delete-form-" + item.Song.Id }))
+                                        {
+                                            @Html.AntiForgeryToken()
+                                            @Html.Hidden("songId", item.Song.Id)
+                                            <button type="submit" class="dropdown-item" onclick="return confirm('Are you sure you want to delete this item?');">Delete</button>
+                                        }
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
     }
     else
     {
@@ -48,4 +123,33 @@
         <a asp-action="Create" class="btn btn-primary">Create New</a>
     </p>
 </div>
-</div>
+
+@section Scripts {
+    <script>
+        function handleLike(songId) {
+            var form = document.getElementById('like-form-' + songId);
+            fetch(form.action, {
+                method: form.method,
+                body: new URLSearchParams(new FormData(form)),
+                headers: { 'X-Requested-With': 'XMLHttpRequest' }
+            }).then(response => {
+                if (response.ok) {
+                    location.reload();
+                }
+            });
+        }
+
+        function handleUnlike(songId) {
+            var form = document.getElementById('unlike-form-' + songId);
+            fetch(form.action, {
+                method: form.method,
+                body: new URLSearchParams(new FormData(form)),
+                headers: { 'X-Requested-With': 'XMLHttpRequest' }
+            }).then(response => {
+                if (response.ok) {
+                    location.reload();
+                }
+            });
+        }
+    </script>
+}

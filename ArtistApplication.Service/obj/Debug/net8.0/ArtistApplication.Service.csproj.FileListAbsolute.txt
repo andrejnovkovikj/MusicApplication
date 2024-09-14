@@ -15,3 +15,4 @@ C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.
 C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Service\obj\Debug\net8.0\refint\ArtistApplication.Service.dll
 C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Service\obj\Debug\net8.0\ArtistApplication.Service.pdb
 C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Service\obj\Debug\net8.0\ref\ArtistApplication.Service.dll
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Service\obj\Debug\net8.0\ArtistApplication.Service.sourcelink.json

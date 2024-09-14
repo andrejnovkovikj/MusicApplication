@@ -4,48 +4,74 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Song Details</h1>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card bg-transparent border-0 mb-4">
+                <div class="card-body">
+                    <h1 class="text-center">@Model.Song.Title</h1>
 
-<div>
-    
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Song.Title)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Song.Title)
-        </dd>
-        
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Artist.Name)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Artist.Name)
-        </dd>
+                    <hr />
 
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Genre.Name)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Genre.Name)
-        </dd>
+                    <dl class="row">
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.Song.Title)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.Song.Title)
+                        </dd>
 
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Album)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Album.Title)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Song.Length)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Song.Length)
-        </dd>
-    </dl>
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.Artist.Name)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.Artist.Name)
+                        </dd>
+
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.Genre.Name)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.Genre.Name)
+                        </dd>
+
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.Album.Title)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.Album.Title)
+                        </dd>
+
+                        <dt class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.Song.Length)
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Html.DisplayFor(model => model.Song.Length)
+                        </dd>
+                    </dl>
+
+                    @if (!string.IsNullOrEmpty(Model.Song.FileName))
+                    {
+                        var audioFileUrl = Url.Content($"~/uploads/{Model.Song.FileName}");
+                        <div class="text-center mt-4">
+                            <audio controls class="audio-player">
+                                <source src="@audioFileUrl" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="text-center mt-4">No audio file available.</p>
+                    }
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.Song.Id">Edit</a>
+                <a class="btn btn-secondary ml-2" asp-action="Index">Back to List</a>
+            </div>
+        </div>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Song.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+

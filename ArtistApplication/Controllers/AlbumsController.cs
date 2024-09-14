@@ -10,6 +10,7 @@ using ArtistApplication.Repository;
 using ArtistApplication.Service.Interface;
 using ArtistApplication.Domain.ViewModel;
 using ArtistApplication.Service.Implementation;
+using System.Security.Claims;
 
 namespace ArtistApplication.Web.Controllers
 {
@@ -20,13 +21,15 @@ namespace ArtistApplication.Web.Controllers
             private readonly IArtistService _artistService;
             private readonly IGenreService _genreService;
             private readonly ISongService _songService;
+            private readonly ILikedSongService _likedSongService;
 
-            public AlbumsController(IAlbumService albumService, IArtistService artistService, IGenreService genreService, ISongService songService)
+            public AlbumsController(IAlbumService albumService, IArtistService artistService, IGenreService genreService, ISongService songService,ILikedSongService likedSongService)
             {
                 _albumService = albumService;
                 _artistService = artistService;
                 _genreService = genreService;
                 _songService = songService;
+                _likedSongService = likedSongService;
             }
 
         // GET: Albums
@@ -65,24 +68,28 @@ namespace ArtistApplication.Web.Controllers
         // GET: Albums/Details/5
         public IActionResult Details(Guid id)
         {
-            var album = _albumService.GetAlbumById(id); 
+            var album = _albumService.GetAlbumById(id);
             if (album == null)
             {
                 return NotFound();
             }
 
-            var artist = _artistService.GetArtistById(album.ArtistId); 
-            var genre = _genreService.GetGenreById(album.GenreId);     
+            var artist = _artistService.GetArtistById(album.ArtistId);
+            var genre = _genreService.GetGenreById(album.GenreId);
 
-            var allSongs = _songService.GetSongs(); 
-            var songs = allSongs.Where(s => s.AlbumId == id).ToList(); 
+            var allSongs = _songService.GetSongs();
+            var songs = allSongs.Where(s => s.AlbumId == id).ToList();
+
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var likedSongIds = userId != null ? _likedSongService.GetLikedSongsByUser(userId).Select(ls => ls.Id).ToHashSet() : new HashSet<Guid>();
 
             var viewModel = new AlbumDetailsViewModel
             {
                 Album = album,
                 Artist = artist,
                 Genre = genre,
-                Songs = songs
+                Songs = songs,
+                LikedSongIds = likedSongIds
             };
 
             return View(viewModel);

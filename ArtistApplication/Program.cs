@@ -1,3 +1,4 @@
+using ArtistApplication.Domain.Identity;
 using ArtistApplication.Repository;
 using ArtistApplication.Repository.Implementation;
 using ArtistApplication.Repository.Interface;
@@ -14,8 +15,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<ArtistApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
@@ -24,6 +26,7 @@ builder.Services.AddTransient<IArtistService, ArtistService>();
 builder.Services.AddTransient<IAlbumService, AlbumService>();
 builder.Services.AddTransient<ISongService, SongService>();
 builder.Services.AddTransient<IGenreService, GenreService>();
+builder.Services.AddTransient<ILikedSongService, LikedSongService>();
 
 var app = builder.Build();
 

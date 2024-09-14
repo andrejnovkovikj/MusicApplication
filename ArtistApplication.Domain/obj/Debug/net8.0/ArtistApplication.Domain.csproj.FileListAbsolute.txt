@@ -10,3 +10,4 @@ C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.
 C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Domain\obj\Debug\net8.0\refint\ArtistApplication.Domain.dll
 C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Domain\obj\Debug\net8.0\ArtistApplication.Domain.pdb
 C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Domain\obj\Debug\net8.0\ref\ArtistApplication.Domain.dll
+C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication.Domain\obj\Debug\net8.0\ArtistApplication.Domain.sourcelink.json

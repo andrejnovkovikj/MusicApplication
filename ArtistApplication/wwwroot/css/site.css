@@ -19,7 +19,7 @@ html {
 
 
 body {
-    background: radial-gradient(circle, #0e5443, #161716);
+    background: linear-gradient(#e66465, #9198e5);
     color: white;
     margin: 0;
     padding: 0;
@@ -50,18 +50,18 @@ footer {
 }
 
 .btn-custom {
-    background-color: black;
+    background-color: #808080;
     color: white;
-    border: none; 
+    border: none;
     border-radius: 15px;
     padding: 10px 20px;
-    text-align: center; 
+    text-align: center;
     width: 100%;
     max-width: 300px;
 }
 
 .btn-custom:hover {
-        background-color: steelblue;
+        background-color: dimgrey;
  }
 
 a {
@@ -116,7 +116,7 @@ a {
 }
 
 .custom-btn {
-    background-color: #5bc0de;
+    background-color: #5b0de;
     border-color: #46b8da;
     color: white;
 }
@@ -125,3 +125,53 @@ a {
         background-color: #31b0d5;
         border-color: #269abc;
     }
+.image-margin {
+    margin-left: 25px;
+}
+.icon-white {
+    color: white;
+}
+.custom-burger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    border: none;
+    background: transparent;
+}
+
+.burger-lines {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+}
+.custom-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 80% opacity */
+    color: white; /* White text color for contrast */
+    padding: 20px; /* Add some padding */
+    border-radius: 50px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for better visibility */
+}
+.card.bg-transparent {
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.custom-table img {
+    max-width: 40px; /* Adjust the image size */
+}
+
+.custom-table td {
+    padding: 5px; /* Reduce padding */
+}
+
+.custom-table {
+    font-size: small; /* Reduce font size */
+}
+
+.dropdown-menu {
+    min-width: 120px; /* Adjust dropdown menu width */
+}
