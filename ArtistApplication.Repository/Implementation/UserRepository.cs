@@ -15,11 +15,20 @@ namespace ArtistApplication.Repository.Implementation
         private DbSet<ArtistApplicationUser> entities;
         string errorMessage = string.Empty;
 
+
+
         public UserRepository(ApplicationDbContext context)
         {
             this.context = context;
             entities = context.Set<ArtistApplicationUser>();
         }
+
+
+        public IEnumerable<ArtistApplicationUser> GetUsersByIds(IEnumerable<string> userIds)
+        {
+                return this.context.Users.Where(u => userIds.Contains(u.Id)).ToList();
+        }
+        
 
         public IEnumerable<ArtistApplicationUser> GetAll()
         {

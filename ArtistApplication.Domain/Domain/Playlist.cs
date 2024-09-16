@@ -19,5 +19,7 @@ namespace ArtistApplication.Domain.Domain
         public ArtistApplicationUser? User { get; set; }
 
         public ICollection<PlaylistSong>? PlaylistSongs { get; set; }
+        public string? PictureUrl { get; set; }
+
     }
 }

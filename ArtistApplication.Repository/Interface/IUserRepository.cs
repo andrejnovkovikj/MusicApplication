@@ -10,6 +10,7 @@ namespace ArtistApplication.Repository.Interface
     public interface IUserRepository
     {
         IEnumerable<ArtistApplicationUser> GetAll();
+        IEnumerable<ArtistApplicationUser> GetUsersByIds(IEnumerable<string> userIds);
         ArtistApplicationUser Get(string id);
         void Insert(ArtistApplicationUser entity);
         void Update(ArtistApplicationUser entity);

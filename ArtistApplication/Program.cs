@@ -21,12 +21,16 @@ builder.Services.AddDefaultIdentity<ArtistApplicationUser>(options => options.Si
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddTransient<IArtistService, ArtistService>();
 builder.Services.AddTransient<IAlbumService, AlbumService>();
 builder.Services.AddTransient<ISongService, SongService>();
 builder.Services.AddTransient<IGenreService, GenreService>();
 builder.Services.AddTransient<ILikedSongService, LikedSongService>();
+builder.Services.AddTransient<IPlaylistSongService, PlaylistSongService>();
+builder.Services.AddTransient<IPlaylistService, PlaylistService>();
+builder.Services.AddTransient<IUserService, UserService>();
 
 var app = builder.Build();
 

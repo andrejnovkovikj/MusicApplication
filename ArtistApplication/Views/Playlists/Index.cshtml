@@ -1,0 +1,88 @@
+﻿@model IEnumerable<ArtistApplication.Domain.ViewModel.PlaylistViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container" style="max-width: 800px; margin-top: 100px;">
+    <form asp-action="Index" method="get" class="mb-4">
+        <div class="row">
+            <div class="col-md-10">
+                <input type="text" name="searchString" class="form-control custom-input" value="@ViewBag.SearchString" placeholder="Search by Name" />
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-primary custom-btn">Search</button>
+            </div>
+        </div>
+    </form>
+
+    <table class="table table-transparent custom-table">
+        <thead>
+            <tr>
+                <th style="color:white"></th>
+                <th style="color:white"></th>
+                <th style="color:white"></th>
+                <th style="color:white"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.PictureUrl))
+                        {
+                            var imageUrl = Url.Content(item.PictureUrl);
+                            <img src="@imageUrl" alt="Playlist Picture" class="img-fluid" style="max-width: 50px; height: auto;" />
+                        }
+                        else
+                        {
+                            
+                        }
+                    </td>
+
+
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.Id" style="color:white">
+                            @item.Name
+                        </a>
+                        
+                    </td>
+                    <td style="color:white">
+                        @item.Description
+                    </td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle custom-burger-icon" type="button" id="dropdownMenuButton-@item.Id" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="burger-lines"></span>
+                                <span class="burger-lines"></span>
+                                <span class="burger-lines"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton-@item.Id">
+                                <li>
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="dropdown-item">Edit</a>
+                                </li>
+                                <li>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="dropdown-item">Details</a>
+                                </li>
+                                <li>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="dropdown-item" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="text-center mt-4">
+                <a asp-action="Create" class="btn btn-primary">Create New</a>
+            </div>
+        </div>
+    </div>
+</div>

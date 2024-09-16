@@ -11,6 +11,7 @@ using ArtistApplication.Service.Interface;
 using ArtistApplication.Domain.ViewModel;
 using ArtistApplication.Service.Implementation;
 using System.Security.Claims;
+using ArtistApplication.Domain;
 
 namespace ArtistApplication.Web.Controllers
 {
@@ -21,14 +22,30 @@ namespace ArtistApplication.Web.Controllers
         private readonly IGenreService _genreService;
         private readonly ISongService _songService;
         private readonly ILikedSongService _likedSongService;
+        private readonly IPlaylistService _playlistService;
 
-        public SongsController(IAlbumService albumService, IArtistService artistService, IGenreService genreService, ISongService songService, ILikedSongService likedSongService)
+        public SongsController(IAlbumService albumService, IArtistService artistService, IGenreService genreService, ISongService songService, ILikedSongService likedSongService, IPlaylistService playlistService)
         {
             _albumService = albumService;
             _artistService = artistService;
             _genreService = genreService;
             _songService = songService;
             _likedSongService = likedSongService;
+            _playlistService = playlistService;
+        }
+
+        [HttpPost]
+        public IActionResult AddToPlaylist(Guid songId, Guid playlistId)
+        {
+            try
+            {
+                _playlistService.AddSongToPlaylist(playlistId, songId);
+                return RedirectToAction("Index");
+            }
+            catch (ArgumentException)
+            {
+                return RedirectToAction("Index"); 
+            }
         }
 
         [HttpPost]
@@ -60,15 +77,12 @@ namespace ArtistApplication.Web.Controllers
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (userId != null)
             {
-                // Fetch the liked songs for the user
                 var likedSongs = _likedSongService.GetLikedSongsByUser(userId);
 
-                // Prepare a list of LikedSongsViewModel
                 var viewModel = new List<LikedSongsViewModel>();
 
                 foreach (var song in likedSongs)
                 {
-                    // Assuming you have methods to get the related entities
                     var album = _albumService.GetAlbumById(song.AlbumId);
                     var artist = _artistService.GetArtistById(album?.ArtistId ?? Guid.Empty);
                     var genre = _genreService.GetGenreById(album?.GenreId ?? Guid.Empty);
@@ -82,7 +96,6 @@ namespace ArtistApplication.Web.Controllers
                     });
                 }
 
-                // Populate ViewBag with the list of liked song IDs
                 ViewBag.LikedSongs = likedSongs.Select(ls => ls.Id).ToList();
 
                 return View(viewModel);
@@ -97,35 +110,36 @@ namespace ArtistApplication.Web.Controllers
         {
                 var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
                 var songs = _songService.GetSongs();
+                var playlists = _playlistService.GetPlaylists(); 
 
-                // Get albums for the songs
-                var albums = _albumService.GetAlbums(); // Assuming you have a method to get all albums
+           
+                var albums = _albumService.GetAlbums();
 
-                // Filter songs by search string
+               
                 if (!string.IsNullOrEmpty(searchString))
                 {
                     searchString = searchString.ToLower();
                     songs = songs.Where(s => s.Title.ToLower().Contains(searchString)).ToList();
                 }
 
-                // Get the list of liked songs for the current user
+                
                 var likedSongs = new List<Guid>();
                 if (userId != null)
                 {
                     likedSongs = _likedSongService.GetLikedSongsByUser(userId).Select(s => s.Id).ToList();
                 }
 
-                // Prepare the view model
                 var viewModel = songs.Select(song => new SongViewModel
                 {
                     Song = song,
-                    Album = albums.FirstOrDefault(album => album.Id == song.AlbumId) // Fetch the related album
+                    Album = albums.FirstOrDefault(album => album.Id == song.AlbumId) 
                 }).ToList();
 
                 ViewBag.LikedSongs = likedSongs;
                 ViewBag.SearchString = searchString;
+                ViewBag.Playlists = playlists;
 
-                return View(viewModel);
+            return View(viewModel);
             
         }
 
@@ -235,44 +249,31 @@ public IActionResult Edit(Guid id, [Bind("Id,Title,AlbumId,Length,FileName")] So
     {
         try
         {
-            // Handle the file upload if a new audio file is provided
             if (audioFile != null && audioFile.Length > 0)
             {
-                // Generate a unique file name
                 var fileName = $"{Guid.NewGuid()}_{audioFile.FileName}";
 
-                // Specify the path where the file will be saved
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", fileName);
 
-                // Save the file to the specified path
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                     audioFile.CopyTo(stream);
                 }
 
-                // Update the song's file name with the new file name
                 song.FileName = fileName;
             }
 
-            // Update the song entity using the service
             _songService.UpdateSong(song);
 
-            // Redirect to the index action after successful update
             return RedirectToAction(nameof(Index));
         }
         catch (DbUpdateConcurrencyException)
         {
-            // Handle the concurrency exception here
-            // You can log the exception or display an error message
-            // For simplicity, just rethrowing it
             throw;
         }
         catch (Exception ex)
         {
-            // Handle other potential exceptions
-            // Log the exception or display a friendly error message
             ModelState.AddModelError(string.Empty, "An error occurred while updating the song.");
-            // Optionally, you can log the exception details here
         }
     }
 

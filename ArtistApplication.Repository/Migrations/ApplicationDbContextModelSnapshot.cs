@@ -117,6 +117,9 @@ namespace ArtistApplication.Repository.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("PictureUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
 
@@ -129,19 +132,16 @@ namespace ArtistApplication.Repository.Migrations
 
             modelBuilder.Entity("ArtistApplication.Domain.Domain.PlaylistSong", b =>
                 {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<Guid>("PlaylistId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("SongId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.HasKey("Id");
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uniqueidentifier");
 
-                    b.HasIndex("PlaylistId");
+                    b.HasKey("PlaylistId", "SongId");
 
                     b.HasIndex("SongId");
 
@@ -437,7 +437,7 @@ namespace ArtistApplication.Repository.Migrations
                         .IsRequired();
 
                     b.HasOne("ArtistApplication.Domain.Domain.Song", "Song")
-                        .WithMany()
+                        .WithMany("PlaylistSongs")
                         .HasForeignKey("SongId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -523,6 +523,11 @@ namespace ArtistApplication.Repository.Migrations
                 });
 
             modelBuilder.Entity("ArtistApplication.Domain.Domain.Playlist", b =>
+                {
+                    b.Navigation("PlaylistSongs");
+                });
+
+            modelBuilder.Entity("ArtistApplication.Domain.Domain.Song", b =>
                 {
                     b.Navigation("PlaylistSongs");
                 });

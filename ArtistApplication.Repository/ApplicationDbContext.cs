@@ -28,7 +28,22 @@ namespace ArtistApplication.Repository
                 .HasMany(a => a.Songs)
                 .WithOne(s => s.Album)
                 .HasForeignKey(s => s.AlbumId);
+            
+            modelBuilder.Entity<PlaylistSong>()
+            .HasKey(ps => new { ps.PlaylistId, ps.SongId });
 
+            // Configure Playlist-Song relationship
+            modelBuilder.Entity<PlaylistSong>()
+                .HasOne(ps => ps.Playlist)
+                .WithMany(p => p.PlaylistSongs)
+                .HasForeignKey(ps => ps.PlaylistId);
+
+            modelBuilder.Entity<PlaylistSong>()
+                .HasOne(ps => ps.Song)
+                .WithMany(s => s.PlaylistSongs)
+                .HasForeignKey(ps => ps.SongId);
+
+            base.OnModelCreating(modelBuilder);
         }
 
     }

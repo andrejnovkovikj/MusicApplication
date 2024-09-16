@@ -1,25 +1,25 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 
 body {
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#48749c, #808080);
     color: white;
     margin: 0;
     padding: 0;
@@ -27,6 +27,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 footer {
     color: #3e5672;
     padding: 20px 0;
@@ -39,43 +40,105 @@ footer {
 
 .container {
     padding: 0;
-    flex: 1; 
+    flex: 1;
 }
 
 .custom-navbar {
-    border-color: black;
+    background-color: #343a40; /* Navbar background color */
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure it takes full width */
+    padding: 0; /* Remove any default padding */
+    margin: 0; /* Remove any default margin */
+}
+
+.nav-item {
+    width: 100%; /* Ensure items take full width */
+}
+
+.nav-link {
+    display: block; /* Ensure links are block-level */
+    width: 100%; /* Ensure links take full width */
+    text-align: left; /* Align text to the left */
+    padding: 10px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Include padding in element width */
+}
+
+.mt-auto {
+    margin-top: auto; /* Pushes the login partial to the bottom */
+}
+.custom-link-size {
+    font-size: 18px; /* Adjust the font size as needed */
+    padding: 20px; /* Adjust padding to increase the clickable area */
+    display: block; /* Ensure the link is a block-level element for better sizing */
+    width: 100%; /* Optional: Make the link take full width */
+}
+
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure it takes full width */
+}
+
+.nav-item {
+    display: block;
+    width: 100%; /* Ensure items take full width */
+}
+
+.nav-link {
+    display: block; /* Ensure links are block-level */
+    width: 100%; /* Ensure links take full width */
+    text-align: left; /* Align text to the left */
+    padding: 5px; /* Add padding for better spacing */
+}
+
+
+.form-inline {
+    display: block; /* Ensure form takes full width */
+    padding-top: 0px;
+    padding: 0px;
+}
+
+.btn-link {
+    width: 100%; /* Ensure button fills the container */
+    text-align: left; /* Align text inside the button to the left */
 }
 .text-custom {
     color: black;
 }
 
 .btn-custom {
-    background-color: #808080;
+    background: #2e2c2c;
     color: white;
-    border: none;
     border-radius: 15px;
     padding: 10px 20px;
     text-align: center;
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
 }
 
-.btn-custom:hover {
+    .btn-custom:hover {
         background-color: dimgrey;
- }
+    }
 
 a {
     color: #fff;
     text-decoration: none;
 }
+
 .dropbtn {
     background-color: transparent;
-    color:white;
+    color: white;
     padding: 5px;
     font-size: 30px;
     border: none;
     cursor: pointer;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -125,12 +188,15 @@ a {
         background-color: #31b0d5;
         border-color: #269abc;
     }
+
 .image-margin {
     margin-left: 25px;
 }
+
 .icon-white {
     color: white;
 }
+
 .custom-burger-icon {
     display: flex;
     flex-direction: column;
@@ -146,32 +212,45 @@ a {
     height: 2px;
     background-color: white;
 }
+
 .custom-container {
-    background-color: rgba(0, 0, 0, 0.7); /* Black with 80% opacity */
-    color: white; /* White text color for contrast */
-    padding: 20px; /* Add some padding */
-    border-radius: 50px; /* Optional: rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for better visibility */
+    background-color: #141414;
+    margin-top: 60px;
+    padding: 30px; 
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    max-width: 850px; 
 }
+
 .card.bg-transparent {
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .rounded-circle {
     border-radius: 50% !important;
 }
+
 .custom-table img {
-    max-width: 40px; /* Adjust the image size */
+    max-width: 40px; 
 }
 
 .custom-table td {
-    padding: 5px; /* Reduce padding */
+    padding: 5px;
 }
 
 .custom-table {
-    font-size: small; /* Reduce font size */
+    font-size: small;
 }
 
 .dropdown-menu {
-    min-width: 120px; /* Adjust dropdown menu width */
+    min-width: 120px;
+}
+.custom-navbar {
+    background: #141414;
+    width: 100px; 
+    height: 50vh; 
+}
+
+body {
+    margin-left: 200px;
 }

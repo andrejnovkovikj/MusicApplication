@@ -10,10 +10,9 @@
     @if (User.Identity.IsAuthenticated)
     {
         <div class="row mt-5 justify-content-center">
-            <!-- Liked Songs Tile -->
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <a href="@Url.Action("MyLikedSongs", "Songs")" class="text-decoration-none">
-                    <div class="card text-center border-dark" style="background-color: #808080; border-radius: 10px;">
+                    <div class="card text-center " style="background-color: #2e2c2c; border-radius: 10px;">
                         <div class="card-body">
                             <h5 class="card-title text-light">Liked Songs</h5>
                         </div>
@@ -21,25 +20,32 @@
                 </a>
             </div>
 
-            <!-- Privacy Tile -->
-            <div class="col-md-4">
-                <a href="@Url.Action("Privacy", "Home")" class="text-decoration-none">
-                    <div class="card text-center border-dark" style="background-color: #808080; border-radius: 10px;">
+            <div class="col-md-5">
+                <a href="@Url.Action("Index", "Playlists")" class="text-decoration-none">
+                    <div class="card text-center " style="background-color: #2e2c2c; border-radius: 10px;">
                         <div class="card-body">
-                            <h5 class="card-title text-light">Privacy</h5>
+                            <h5 class="card-title text-light">Playlists</h5>
                         </div>
                     </div>
                 </a>
             </div>
         </div>
 
-        <!-- Browse Tile -->
         <div class="row mt-5 justify-content-center">
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <a href="@Url.Action("Browse", "Home")" class="text-decoration-none">
-                    <div class="card text-center border-dark" style="background-color: #808080; border-radius: 10px;">
+                    <div class="card text-center " style="background-color: #2e2c2c; border-radius: 10px;">
                         <div class="card-body">
                             <h5 class="card-title text-light">Browse</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-5">
+                <a href="@Url.Action("Privacy", "Home")" class="text-decoration-none">
+                    <div class="card text-center " style="background-color: #2e2c2c; border-radius: 10px;">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Privacy</h5>
                         </div>
                     </div>
                 </a>
