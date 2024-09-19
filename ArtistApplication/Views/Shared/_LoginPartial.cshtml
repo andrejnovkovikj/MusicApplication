@@ -3,7 +3,7 @@
 @inject SignInManager<ArtistApplicationUser> SignInManager
 @inject UserManager<ArtistApplicationUser> UserManager
 
-<ul class="navbar-nav" style="font-size:13px">
+<ul class="navbar-nav" style="font-size:12px">
     @if (SignInManager.IsSignedIn(User))
     {
         <li class="nav-item">
@@ -11,17 +11,25 @@
                 var user = UserManager.GetUserAsync(User).Result;
                 var firstName = user?.FirstName ?? "User";
             }
-            <a class="nav-link text-light" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"> @firstName</a>
-            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button type="submit" class="nav-link btn btn-link text-light " style="font-size:13px;">Logout</button>
+            <a class="nav-link text-light border-bottom border-white" style="text-align:center" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><i class="bi bi-person"></i> @firstName</a>
+            <form class="form-inline"  asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-link text-light " style="font-size:12px; text-align:center;">
+                    <i class="bi bi-box-arrow-left"></i>
+                    Logout
+                </button>
             </form>
         </li>
     }
     else
     {
         <li class="nav-item">
-            <a class="nav-link text-light " asp-area="Identity" asp-page="/Account/Register">Register</a>
-            <a class="nav-link text-light " asp-area="Identity" asp-page="/Account/Login">Login</a>
+            <a class="nav-link text-light " style="text-align:center" asp-area="Identity" asp-page="/Account/Register">
+                <i class="bi bi-person-plus"></i>
+                Register</a>
+            <a class="nav-link text-light " style="text-align:center" asp-area="Identity" asp-page="/Account/Login">
+                <i class="bi bi-box-arrow-in-right"></i>
+                Login
+            </a>
         </li>
     }
 </ul>

@@ -3,9 +3,9 @@
     ViewData["Title"] = "My Liked Songs";
 }
 
-<div class="container" style="max-width: 800px;">
+<div class="container" style="max-width: 1000px;">
     <h2 class="text-center mb-4">Liked Songs</h2>
-    <h6 class="text-center mb-4">These are the songs that You have liked!</h6>
+    <h6 class="text-center mb-4">These are the Songs that You have liked!</h6>
 
     @if (Model != null && Model.Any())
     {
@@ -28,7 +28,7 @@
                             @if (!string.IsNullOrEmpty(item.Album?.PictureUrl))
                             {
                                 var imageUrl = Url.Content(item.Album.PictureUrl);
-                                <img src="@imageUrl" alt="Album Picture" class="img-fluid image-margin" style="max-width: 50px; height: auto;" />
+                                <img src="@imageUrl" alt="Album Picture" class="img-fluid image-margin" style="max-width: 70px; height: auto;" />
                             }
                             else
                             {
@@ -38,7 +38,7 @@
 
                         <td>
                             <div>
-                                <strong style="color:white">@item.Song?.Title</strong>
+                                <strong style="color:white;margin-top:30px;">@item.Song?.Title</strong>
                                 <br />
                                 <em style="color:white">@item.Album?.Title</em>
                             </div>
@@ -49,6 +49,7 @@
                             {
                                 var audioFileUrl = Url.Content($"~/uploads/{item.Song.FileName}");
                                 <audio controls class="audio-player">
+                                    <br />
                                     <source src="@audioFileUrl" type="audio/mpeg">
                                     Your browser does not support the audio element.
                                 </audio>
@@ -73,7 +74,7 @@
                                             @using (Html.BeginForm("Unlike", "Songs", FormMethod.Post))
                                             {
                                                 @Html.Hidden("songId", item.Song?.Id)
-                                                <button type="submit" class="dropdown-item">Unlike</button>
+                                                <button type="submit" class="dropdown-item">Dislike</button>
                                             }
                                         }
                                         else

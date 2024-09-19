@@ -9,6 +9,8 @@ using ArtistApplication.Domain.Domain;
 using ArtistApplication.Repository;
 using ArtistApplication.Service.Interface;
 using ArtistApplication.Domain.ViewModel;
+using ArtistApplication.Service.Implementation;
+using System.Security.Claims;
 
 namespace ArtistApplication.Web.Controllers
 {
@@ -18,15 +20,60 @@ namespace ArtistApplication.Web.Controllers
         private readonly IArtistService _artistService;
         private readonly IGenreService _genreService;
         private readonly ISongService _songService;
+        private readonly ILikedArtistService _likedArtistService;
 
-        public ArtistsController(IAlbumService albumService, IArtistService artistService, IGenreService genreService, ISongService songService)
+        public ArtistsController(IAlbumService albumService, IArtistService artistService, IGenreService genreService, ISongService songService, ILikedArtistService likedArtistService)
         {
             _albumService = albumService;
             _artistService = artistService;
             _genreService = genreService;
             _songService = songService;
+            _likedArtistService = likedArtistService;
+        }
+        // LikedArtist part//
+        [HttpPost]
+        public IActionResult Like(Guid artistId)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                _likedArtistService.LikeArtist(userId, artistId);
+            }
+
+            return RedirectToAction("Index");
         }
 
+        [HttpPost]
+        public IActionResult Unlike(Guid artistId)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                _likedArtistService.UnlikeArtist(userId, artistId);
+            }
+
+            return RedirectToAction("Index"); // Redirect to avoid form resubmission
+        }
+
+        [HttpGet]
+        public IActionResult MyLikedArtists()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                var likedArtists = _likedArtistService.GetLikedArtistsByUser(userId);
+
+                ViewBag.likedArtists = likedArtists.Select(ls => ls.Id).ToList();
+
+                return View(likedArtists);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+
+
+        // end of LikedArtist part//
 
         // GET: Artists
         public IActionResult Index(string? searchString)
@@ -41,6 +88,17 @@ namespace ArtistApplication.Web.Controllers
 
             ViewBag.SearchString = searchString;
             ViewBag.NoDataMessage = filteredArtists.Any() ? null : "No artists found.";
+
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                var likedArtists = _likedArtistService.GetLikedArtistsByUser(userId);
+                ViewBag.likedArtists = likedArtists.Select(p => p.Id).ToList();
+            }
+            else
+            {
+                ViewBag.LikedArtists = new List<Guid>();
+            }
 
             return View(filteredArtists);
         }

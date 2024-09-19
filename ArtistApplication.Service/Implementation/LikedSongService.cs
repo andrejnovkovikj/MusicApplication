@@ -12,17 +12,14 @@ namespace ArtistApplication.Service.Implementation
     public class LikedSongService : ILikedSongService
     {
         private readonly IRepository<LikedSong> _likedSongRepository;
-        private readonly IRepository<Song> _songRepository;
 
-        public LikedSongService(IRepository<LikedSong> likedSongRepository, IRepository<Song> songRepository)
+        public LikedSongService(IRepository<LikedSong> likedSongRepository)
         {
             _likedSongRepository = likedSongRepository;
-            _songRepository = songRepository;
         }
 
         public IEnumerable<Song> GetLikedSongsByUser(string userId)
         {
-            // Retrieve all liked songs for the user
             var likedSongs = _likedSongRepository.GetAll()
                 .Where(ls => ls.UserId == userId)
                 .Select(ls => ls.Song)

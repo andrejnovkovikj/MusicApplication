@@ -83,6 +83,72 @@ namespace ArtistApplication.Repository.Migrations
                     b.ToTable("Genres");
                 });
 
+            modelBuilder.Entity("ArtistApplication.Domain.Domain.LikedAlbum", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("AlbumId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AlbumId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("LikedAlbums");
+                });
+
+            modelBuilder.Entity("ArtistApplication.Domain.Domain.LikedArtist", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("ArtistId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ArtistId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("LikedArtists");
+                });
+
+            modelBuilder.Entity("ArtistApplication.Domain.Domain.LikedPlaylist", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("PlaylistId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PlaylistId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("LikedPlaylists");
+                });
+
             modelBuilder.Entity("ArtistApplication.Domain.Domain.LikedSong", b =>
                 {
                     b.Property<Guid>("Id")
@@ -398,6 +464,63 @@ namespace ArtistApplication.Repository.Migrations
                     b.Navigation("Artist");
 
                     b.Navigation("Genre");
+                });
+
+            modelBuilder.Entity("ArtistApplication.Domain.Domain.LikedAlbum", b =>
+                {
+                    b.HasOne("ArtistApplication.Domain.Domain.Album", "Album")
+                        .WithMany()
+                        .HasForeignKey("AlbumId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ArtistApplication.Domain.Identity.ArtistApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Album");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ArtistApplication.Domain.Domain.LikedArtist", b =>
+                {
+                    b.HasOne("ArtistApplication.Domain.Domain.Artist", "Artist")
+                        .WithMany()
+                        .HasForeignKey("ArtistId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ArtistApplication.Domain.Identity.ArtistApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Artist");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ArtistApplication.Domain.Domain.LikedPlaylist", b =>
+                {
+                    b.HasOne("ArtistApplication.Domain.Domain.Playlist", "Playlist")
+                        .WithMany()
+                        .HasForeignKey("PlaylistId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ArtistApplication.Domain.Identity.ArtistApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Playlist");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("ArtistApplication.Domain.Domain.LikedSong", b =>

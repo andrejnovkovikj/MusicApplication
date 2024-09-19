@@ -22,15 +22,65 @@ namespace ArtistApplication.Web.Controllers
             private readonly IGenreService _genreService;
             private readonly ISongService _songService;
             private readonly ILikedSongService _likedSongService;
+            private readonly ILikedAlbumService _likedAlbumService;
 
-            public AlbumsController(IAlbumService albumService, IArtistService artistService, IGenreService genreService, ISongService songService,ILikedSongService likedSongService)
+            public AlbumsController(IAlbumService albumService, IArtistService artistService, IGenreService genreService, ISongService songService,ILikedSongService likedSongService,ILikedAlbumService likedAlbumService)
             {
                 _albumService = albumService;
                 _artistService = artistService;
                 _genreService = genreService;
                 _songService = songService;
                 _likedSongService = likedSongService;
+                _likedAlbumService = likedAlbumService;
             }
+        // LikedAlbums part//
+
+        [HttpPost]
+        public IActionResult Like(Guid albumId)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                _likedAlbumService.LikeAlbum(userId, albumId);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult Unlike(Guid albumId)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                _likedAlbumService.UnlikeAlbum(userId, albumId);
+            }
+
+            return RedirectToAction("Index"); // Redirect to avoid form resubmission
+        }
+
+        [HttpGet]
+        public IActionResult MyLikedAlbums()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                var likedAlbums = _likedAlbumService.GetLikedAlbumsByUser(userId);
+
+                ViewBag.likedAlbums = likedAlbums.Select(ls => ls.Id).ToList();
+
+                return View(likedAlbums);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+
+
+        // end of LikedAlbums part//
+
+
+
 
         // GET: Albums
         public IActionResult Index(string? searchString)
@@ -58,6 +108,16 @@ namespace ArtistApplication.Web.Controllers
 
             ViewBag.SearchString = searchString;
             ViewBag.NoDataMessage = filteredAlbums.Any() ? null : "No albums found.";
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                var likedAlbums = _likedAlbumService.GetLikedAlbumsByUser(userId);
+                ViewBag.LikedAlbums = likedAlbums.Select(p => p.Id).ToList();
+            }
+            else
+            {
+                ViewBag.LikedAlbums = new List<Guid>();
+            }
 
             return View(filteredAlbums);
         }

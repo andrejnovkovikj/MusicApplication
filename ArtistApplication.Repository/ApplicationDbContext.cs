@@ -19,6 +19,9 @@ namespace ArtistApplication.Repository
         public DbSet<Playlist> Playlists { get; set; }
         public DbSet<PlaylistSong> PlaylistSongs { get; set; }
         public DbSet<LikedSong> LikedSongs { get; set; }
+        public DbSet<LikedArtist> LikedArtists { get; set; }
+        public DbSet<LikedAlbum> LikedAlbums { get; set; }
+        public DbSet<LikedPlaylist> LikedPlaylists { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -33,7 +33,7 @@ namespace ArtistApplication.Web.Controllers
             _likedSongService = likedSongService;
             _playlistService = playlistService;
         }
-
+        // Playlist part//
         [HttpPost]
         public IActionResult AddToPlaylist(Guid songId, Guid playlistId)
         {
@@ -47,6 +47,11 @@ namespace ArtistApplication.Web.Controllers
                 return RedirectToAction("Index"); 
             }
         }
+
+        //end of Playlist part//
+
+
+        // likedSongs part//
 
         [HttpPost]
         public IActionResult Like(Guid songId)
@@ -104,6 +109,7 @@ namespace ArtistApplication.Web.Controllers
             return RedirectToAction("Index");
         }
 
+        // end of LikedSongs part
 
         // GET: Songs
         public IActionResult Index(string searchString)

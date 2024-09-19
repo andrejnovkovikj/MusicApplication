@@ -21,14 +21,67 @@ namespace ArtistApplication.Web.Controllers
         private readonly IUserService _userService;
         private readonly IAlbumService _albumService;
         private readonly ILikedSongService _likedSongService;
+        private readonly ILikedPlaylistService _likedPlaylistService;
 
-        public PlaylistsController(IPlaylistService playlistService, IUserService userService, IAlbumService albumService, ILikedSongService likedSongService)
+        public PlaylistsController(IPlaylistService playlistService, IUserService userService, IAlbumService albumService, ILikedSongService likedSongService, ILikedPlaylistService likedPlaylistService)
         {
             _playlistService = playlistService;
             _userService = userService;
             _albumService = albumService;
             _likedSongService = likedSongService;
+            _likedPlaylistService = likedPlaylistService;
         }
+
+        // LikedPlaylist part//
+
+        [HttpPost]
+        public IActionResult Like(Guid playlistId)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                _likedPlaylistService.LikePlaylist(userId, playlistId);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult Unlike(Guid playlistId)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                _likedPlaylistService.UnlikePlaylist(userId, playlistId);
+            }
+
+            return RedirectToAction("Index"); // Redirect to avoid form resubmission
+        }
+
+        [HttpGet]
+        public IActionResult MyLikedPlaylists()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                var likedPlaylists = _likedPlaylistService.GetLikedPlaylistsByUser(userId);
+
+                ViewBag.likedPlaylists = likedPlaylists.Select(ls => ls.Id).ToList();
+
+                return View(likedPlaylists);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+
+
+        // end of LikedPlaylist part//
+
+
+
+
+
         // GET: Playlists
         public IActionResult Index(string searchString)
         {
@@ -54,6 +107,16 @@ namespace ArtistApplication.Web.Controllers
                 PictureUrl=p.PictureUrl
             }).ToList();
 
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId != null)
+            {
+                var likedPlaylists = _likedPlaylistService.GetLikedPlaylistsByUser(userId);
+                ViewBag.LikedPlaylists = likedPlaylists.Select(p => p.Id).ToList();
+            }
+            else
+            {
+                ViewBag.LikedPlaylists = new List<Guid>();
+            }
             ViewBag.SearchString = searchString; 
             return View(model);
         }

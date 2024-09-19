@@ -28,6 +28,10 @@ builder.Services.AddTransient<IAlbumService, AlbumService>();
 builder.Services.AddTransient<ISongService, SongService>();
 builder.Services.AddTransient<IGenreService, GenreService>();
 builder.Services.AddTransient<ILikedSongService, LikedSongService>();
+builder.Services.AddTransient<ILikedPlaylistService, LikedPlaylistService>();
+builder.Services.AddTransient<ILikedAlbumService, LikedAlbumService>();
+builder.Services.AddTransient<ILikedArtistService, LikedArtistService>();
+
 builder.Services.AddTransient<IPlaylistSongService, PlaylistSongService>();
 builder.Services.AddTransient<IPlaylistService, PlaylistService>();
 builder.Services.AddTransient<IUserService, UserService>();

@@ -21,7 +21,6 @@ namespace ArtistApplication.Service.Implementation
 
         public string GetUsernameById(string userId)
         {
-            // Use the repository to fetch the user by ID
             var user = _userRepository.Get(userId);
             return user != null ? user.UserName : "Unknown";
         }
