@@ -4,7 +4,7 @@
     ViewData["Title"] = "Album Details";
 }
 
-<div class="container" style="max-width: 1000px;">
+<div class="container container.lg" >
     <div class="text-center mb-4">
         @if (!string.IsNullOrEmpty(Model.Album?.PictureUrl))
         {
@@ -27,13 +27,13 @@
     <h4 class="text-center mt-4">Songs</h4>
     @if (Model.Songs != null && Model.Songs.Any())
     {
-        <table class="table table-transparent custom-table">
+        <table class="table table-transparent custom-table border-dark">
             <thead>
                 <tr>
-                    <th style="color:white"></th>
-                    <th style="color:white"> </th>
-                    <th style="color:white"> </th>
-                    <th style="color:white"></th>
+                    <th class="border-dark" style="color:white"></th>
+                    <th class="border-dark" style="color:white"> </th>
+                    <th class="border-dark" style="color:white"></th>
+                    <th class="border-dark" style="color:white"></th>
                 </tr>
             </thead>
             <tbody>
@@ -44,7 +44,7 @@
                             @if (!string.IsNullOrEmpty(item.Album?.PictureUrl))
                             {
                                 var imageUrl = Url.Content(item.Album.PictureUrl);
-                                <img src="@imageUrl" alt="Album Picture" class="img-fluid image-margin" style="max-width: 50px; height: auto;" />
+                                <img src="@imageUrl" alt="Album Picture" class="img-fluid image-margin" style="max-width: 70px; height: auto;" />
                             }
                             else
                             {
@@ -61,13 +61,18 @@
                         </td>
 
                         <td>
-                            @if (!string.IsNullOrEmpty(item.FileName))
+                            @if (!string.IsNullOrEmpty(item?.FileName))
                             {
                                 var audioFileUrl = Url.Content($"~/uploads/{item.FileName}");
-                                <audio controls class="mt-2">
-                                    <source src="@audioFileUrl" type="audio/mpeg">
-                                    Your browser does not support the audio element.
-                                </audio>
+
+                                <div class="custom-audio-player" data-audio-url="@audioFileUrl">
+                                    <button class="play-pause-btn">
+                                        <i class="bi bi-play-fill"></i>
+                                    </button>
+                                    <input type="range" class="seek-bar" value="0" min="0" max="100" step="1">
+                                    <span class="current-time">0:00</span> / <span class="duration">0:00</span>
+                                    <input type="range" class="volume-bar" value="100" min="0" max="100" step="1">
+                                </div>
                             }
                             else
                             {
@@ -128,9 +133,6 @@
         <p class="text-center">No songs available.</p>
     }
 
-    <p class="text-center">
-        <a asp-action="Create" class="btn btn-primary">Create New</a>
-    </p>
 </div>
 
 @section Scripts {

@@ -4,43 +4,52 @@
     ViewData["Title"] = "Index";
 }
 
-<div class="container" style="max-width: 1000px; margin-top:50px">
+<div class="container " style="margin-top:50px">
     <h2 class="text-center mb-4">Albums</h2>
-    <form asp-action="Index" method="get" class="mb-4">
-        <div class="row">
-            <div class="col-md-10">
-                <input type="text" name="searchString" class="form-control custom-input" value="@ViewBag.SearchString" placeholder="Search by Title or Artist" />
+    <div class="text-center" style="width: 400px;margin: 0 auto;">
+        <form asp-action="Index" method="get">
+            <div class="input-group">
+                <input type="text" name="searchString" class="form-control custom-input" placeholder="Search songs" value="@ViewBag.SearchString" />
+                <button class="btn custom-btn" type="submit">Search</button>
             </div>
-            <div class="col-md-2">
-                <button type="submit" class="btn btn-primary custom-btn">Search</button>
-            </div>
-        </div>
-    </form>
+        </form>
+    </div>
 
-    <table class="table table-transparent custom-table">
-        <thead>
-            <tr>
-                <th style="color:white">
-                </th>
-                <th style="color:white">
-                    
-                </th>
-                <th style="color:white"></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
+    <table class="table table-transparent custom-table-albums border-dark">
+            <thead>
                 <tr>
-                    <td>
-                        <a asp-action="Details" asp-route-id="@item.Id" style="color:white">
-                            @item.Title
-                        </a>
-                    </td>
-                    <td style="color:white">
-                        @Html.DisplayFor(modelItem => item.Year)
-                    </td>
-                    <td>
+                <th class="border-dark" style="color:white"></th>
+                <th class="border-dark" style="color:white">Album</th>
+                <th class="border-dark" style="color:white"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    var isLiked = ViewBag.LikedAlbums != null && ((List<Guid>)ViewBag.LikedAlbums).Contains(item.Id);
+
+                    <tr>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item?.PictureUrl))
+                            {
+                                var imageUrl = Url.Content(item.PictureUrl);
+                                <img src="@imageUrl" alt="Album Picture" class="img-fluid image-margin" style="max-width: 50px; height: auto;" />
+                            }
+                            else
+                            {
+                                <p>No picture available.</p>
+                            }
+                        </td>
+
+                        <td>
+                            <div>
+                                <a asp-asp-controller="Album" asp-action="Details" asp-route-id="@item.Id"><strong style="color:white">@item?.Title</strong></a>
+                                <br />
+                                <em style="color:white">@item?.Year</em>
+                            </div>
+                        </td>
+
+                        <td>
                         <div class="dropdown">
                             <button class="btn dropdown-toggle custom-burger-icon" type="button" id="dropdownMenuButton-@item.Id" data-bs-toggle="dropdown" aria-expanded="false">
                                 <span class="burger-lines"></span>
@@ -82,13 +91,13 @@
                                 </li>
                             </ul>
                         </div>
-                    </td>
-                </tr>
-            }
-        </tbody>
+                        </td>
+                    </tr>
+                }
+            </tbody>
     </table>
 
-    <p>
+    <p style="text-align: center; margin-top:20px;">
         <a asp-action="Create" class="btn btn-primary">Create New</a>
     </p>
 </div>

@@ -4,26 +4,24 @@
     ViewData["Title"] = "Index";
 }
 
-<div class="container" style="max-width: 1000px;margin-top:50px">
+<div class="container container.lg" style="margin-top:50px">
     <h2 class="text-center mb-4">Artists</h2>
-    <form asp-action="Index" method="get" class="mb-4">
-        <div class="row">
-            <div class="col-md-10">
-                <input type="text" name="searchString" class="form-control custom-input" value="@ViewBag.SearchString" placeholder="Search by Name" />
+    <div class="text-center" style="width: 400px;margin: 0 auto;">
+        <form asp-action="Index" method="get">
+            <div class="input-group">
+                <input type="text" name="searchString" class="form-control custom-input" placeholder="Search songs" value="@ViewBag.SearchString" />
+                <button class="btn custom-btn" type="submit">Search</button>
             </div>
-            <div class="col-md-2">
-                <button type="submit" class="btn btn-primary custom-btn">Search</button>
-            </div>
-        </div>
-    </form>
+        </form>
+    </div>
 
-    <table class="table table-transparent custom-table">
+    <table class="table table-transparent custom-table-artists border-dark">
         <thead>
             <tr>
-                <th style="color:white">
+                <th class="border-dark" style="color:white">
                     
                 </th>
-                <th style="color:white"></th>
+                <th class="border-dark"  style="color:white"></th>
             </tr>
         </thead>
         <tbody>
@@ -83,7 +81,7 @@
         </tbody>
     </table>
 
-    <p>
+    <p style="text-align: center; margin-top:20px;">
         <a asp-action="Create" class="btn btn-primary">Create New</a>
     </p>
 </div>

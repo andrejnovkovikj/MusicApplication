@@ -6,7 +6,9 @@
     <title>@ViewData["Title"] - ArtistApplication</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <script src="~/js/site.js"></script>
     <link rel="stylesheet" href="~/ArtistApplication.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.11/plyr.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -26,19 +28,28 @@
                         <li class="nav-item mt-2">
                             <a class="nav-link text-light d-flex align-items-center " asp-action="" asp-controller="Home">
                                 
-                                <span class="ms-2" style="font-size:16px;">Home</span>
+                                <span class="ms-2" style="font-size:16px;">
+                                    <i class="bi bi-house-door-fill"></i>
+                                    Home
+                                </span>
                             </a>
                         </li>
                         <li class="nav-item mt-2">
                             <a class="nav-link text-light d-flex align-items-center " asp-action="Browse" asp-controller="Home">
                                 
-                                <span class="ms-2" style="font-size:16px;">Explore</span>
+                                <span class="ms-2" style="font-size:16px;">
+                                    <i class="bi bi-search"></i>
+                                    Explore
+                                </span>
                             </a>
                         </li>
                         <li class="nav-item mt-2">
                             <a class="nav-link text-light d-flex align-items-center " asp-action="Privacy" asp-controller="Home">
                                 
-                                <span class="ms-2" style="font-size:16px;">Privacy</span>
+                                <span class="ms-2" style="font-size:16px;">
+                                    <i class="bi bi-shield-fill"></i>
+                                    Privacy
+                                </span>
                             </a>
                         </li>
                     </ul>

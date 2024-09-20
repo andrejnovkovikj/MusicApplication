@@ -10,12 +10,14 @@
 
     @if (Model != null && Model.Any())
     {
-        <table class="table table-transparent custom-table">
+        <table class="table table-transparent custom-table-albums border-dark">
             <thead>
                 <tr>
-                    <th style="color:white"></th>
-                    <th style="color:white">Album</th>
-                    <th style="color:white"></th>
+                    <th class="border-dark" style="color:white"></th>
+                    <th class="border-dark" style="color:white"></th>
+                    <th class="border-dark" style="color:white"></th>
+                    <th class="border-dark" style="color:white"></th>
+                    <th class="border-dark" style="color:white"></th>
                 </tr>
             </thead>
             <tbody>
@@ -41,6 +43,11 @@
                                 <a asp-asp-controller="Album" asp-action="Details" asp-route-id="@item.Id"><strong style="color:white">@item?.Title</strong></a>
                                 <br />
                                 <em style="color:white">@item?.Year</em>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <h2 style="color:white">@item?.Genre</h2>
                             </div>
                         </td>
 

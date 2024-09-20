@@ -4,12 +4,12 @@
     ViewData["Title"] = "Playlists Index";
 }
 
-<div class="container" style="max-width: 1000px;">
+<div class="container container.lg">
     <h2 class="text-center mb-4">Playlists</h2>
-    <div class="text-center mb-4">
-        <form asp-controller="Playlists" asp-action="Index" method="get">
+    <div class="text-center" style="width: 400px;margin: 0 auto;">
+        <form asp-action="Index" method="get">
             <div class="input-group">
-                <input type="text" name="searchString" class="form-control custom-input" placeholder="Search playlists" value="@ViewBag.SearchString" />
+                <input type="text" name="searchString" class="form-control custom-input" placeholder="Search songs" value="@ViewBag.SearchString" />
                 <button class="btn custom-btn" type="submit">Search</button>
             </div>
         </form>
@@ -17,13 +17,13 @@
 
     @if (Model != null && Model.Any())
     {
-        <table class="table table-transparent custom-table">
+        <table class="table table-transparent custom-table-playlists border-dark">
             <thead>
                 <tr>
-                    <th style="color:white">Picture</th>
-                    <th style="color:white">Name</th>
-                    <th style="color:white">Description</th>
-                    <th style="color:white">Actions</th>
+                    <th class="border-dark" style="color:white">Picture</th>
+                    <th class="border-dark" style="color:white">Name</th>
+                    <th class="border-dark" style="color:white">Description</th>
+                    <th class="border-dark" style="color:white">Actions</th>
                 </tr>
             </thead>
             <tbody>
@@ -105,7 +105,7 @@
         <p class="text-center">No playlists available.</p>
     }
 
-    <p class="text-center">
+    <p style="text-align: center; margin-top:20px;">
         <a asp-action="Create" class="btn btn-primary">Create New</a>
     </p>
 </div>

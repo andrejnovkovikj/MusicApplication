@@ -44,68 +44,68 @@ footer {
 }
 
 .custom-navbar {
-    background-color: #343a40; /* Navbar background color */
+    background-color: #343a40; 
 }
 
 .navbar-nav {
     display: flex;
     flex-direction: column;
-    width: 100%; /* Ensure it takes full width */
-    padding: 0; /* Remove any default padding */
-    margin: 0; /* Remove any default margin */
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-item {
-    width: 100%; /* Ensure items take full width */
+    width: 100%; 
 }
 
 .nav-link {
-    display: block; /* Ensure links are block-level */
-    width: 100%; /* Ensure links take full width */
-    text-align: left; /* Align text to the left */
-    padding: 10px; /* Add padding for better spacing */
-    box-sizing: border-box; /* Include padding in element width */
+    display: block; 
+    width: 100%; 
+    text-align: left; 
+    padding: 10px; 
+    box-sizing: border-box; 
 }
 
 .mt-auto {
-    margin-top: auto; /* Pushes the login partial to the bottom */
+    margin-top: auto; 
 }
 .custom-link-size {
-    font-size: 18px; /* Adjust the font size as needed */
-    padding: 20px; /* Adjust padding to increase the clickable area */
-    display: block; /* Ensure the link is a block-level element for better sizing */
-    width: 100%; /* Optional: Make the link take full width */
+    font-size: 18px; 
+    padding: 20px; 
+    display: block;
+    width: 100%; 
 }
 
 
 .navbar-nav {
     display: flex;
     flex-direction: column;
-    width: 100%; /* Ensure it takes full width */
+    width: 100%;
 }
 
 .nav-item {
     display: block;
-    width: 100%; /* Ensure items take full width */
+    width: 100%; 
 }
 
 .nav-link {
-    display: block; /* Ensure links are block-level */
-    width: 100%; /* Ensure links take full width */
-    text-align: left; /* Align text to the left */
-    padding: 5px; /* Add padding for better spacing */
+    display: block; 
+    width: 100%; 
+    text-align: left; 
+    padding: 5px; 
 }
 
 
 .form-inline {
-    display: block; /* Ensure form takes full width */
+    display: block; 
     padding-top: 0px;
     padding: 0px;
 }
 
 .btn-link {
-    width: 100%; /* Ensure button fills the container */
-    text-align: left; /* Align text inside the button to the left */
+    width: 100%;
+    text-align: left; 
 }
 .text-custom {
     color: black;
@@ -178,6 +178,7 @@ a {
     color: #333;
 }
 
+
 .custom-btn {
     background-color: #5b0de;
     border-color: #46b8da;
@@ -236,9 +237,34 @@ a {
 .custom-table td {
     padding: 5px;
 }
+.custom-table-artists {
+    font-size: small;
+    max-width: 500px;
+    width: 20%;
+    margin: 0 auto; 
+    border-collapse: collapse;
+}
 
+.custom-table-albums {
+    font-size: small;
+    max-width:500px;
+    width: 30%; 
+    margin: 0 auto; 
+    border-collapse: collapse;
+}
+.custom-table-playlists {
+    font-size: small;
+    max-width: 500px;
+    width: 90%; 
+    margin: 0 auto; 
+    border-collapse: collapse; 
+}
 .custom-table {
     font-size: small;
+    max-width: 900px;
+    width: 80%; 
+    margin: 0 auto; 
+    border-collapse: collapse; 
 }
 
 .dropdown-menu {
@@ -252,4 +278,70 @@ a {
 
 body {
     margin-left: 200px;
+}
+
+.custom-audio-player {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    background-color: #222; 
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    max-width:420px;
+}
+
+    .custom-audio-player button {
+        background-color: #222; 
+        border: none;
+        padding: 5px 10px; 
+        border-radius: 5px;
+        cursor: pointer;
+        color: #fff;
+        transition: background-color 0.3s ease;
+        font-size: 1.2em; 
+    }
+
+        .custom-audio-player button:hover {
+            background-color: #444; 
+        }
+.volume-bar {
+    width: 50px;
+    height: 2px;
+    background-color: #434;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.seek-bar {
+    width: 120px;
+    height:5px;
+    background-color: #444;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.volume-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #888;
+    border-radius: 50%;
+}
+
+.seek-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #888;
+    border-radius: 50%;
+}
+
+.current-time, .duration {
+    font-size: 0.9em;
+}
+
+.custom-audio-player i {
+    font-size: 1.4em;
+    color: #fff; 
 }

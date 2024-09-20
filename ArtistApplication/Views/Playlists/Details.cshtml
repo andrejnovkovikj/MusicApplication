@@ -4,7 +4,7 @@
     ViewData["Title"] = "Playlist Details";
 }
 
-<div class="container">
+<div class="container container.lg " >
     <div class="row justify-content-center">
         <div class="col-md-8">
             <hr />
@@ -32,13 +32,13 @@
 
             @if (Model.Songs != null && Model.Songs.Any())
             {
-                <table class="table table-transparent custom-table">
+                <table class="table table-transparent custom-table border-dark">
                     <thead>
                         <tr>
-                            <th style="color:white"></th>
-                            <th style="color:white"></th>
-                            <th style="color:white"></th>
-                            <th style="color:white"></th>
+                            <th class="border-dark" style="color:white"></th>
+                            <th class="border-dark" style="color:white"> </th>
+                            <th class="border-dark" style="color:white"></th>
+                            <th class="border-dark" style="color:white"></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -50,7 +50,7 @@
                                     @if (!string.IsNullOrEmpty(song.Song.Album?.PictureUrl))
                                     {
                                         var imageUrl = Url.Content(song.Song.Album.PictureUrl);
-                                        <img src="@imageUrl" alt="Album Picture" class="img-fluid image-margin" style="max-width: 50px; height: auto;" />
+                                        <img src="@imageUrl" alt="Album Picture" class="img-fluid image-margin" style="max-width: 70px; height: auto;" />
                                     }
                                     else
                                     {
@@ -69,13 +69,18 @@
 
                                 <!-- Audio Playback (if available) -->
                                 <td>
-                                    @if (!string.IsNullOrEmpty(song.Song.FileName))
+                                    @if (!string.IsNullOrEmpty(song.Song?.FileName))
                                     {
                                         var audioFileUrl = Url.Content($"~/uploads/{song.Song.FileName}");
-                                        <audio controls class="mt-2">
-                                            <source src="@audioFileUrl" type="audio/mpeg">
-                                            Your browser does not support the audio element.
-                                        </audio>
+
+                                        <div class="custom-audio-player" data-audio-url="@audioFileUrl">
+                                            <button class="play-pause-btn">
+                                                <i class="bi bi-play-fill"></i>
+                                            </button>
+                                            <input type="range" class="seek-bar" value="0" min="0" max="100" step="1">
+                                            <span class="current-time">0:00</span> / <span class="duration">0:00</span>
+                                            <input type="range" class="volume-bar" value="100" min="0" max="100" step="1">
+                                        </div>
                                     }
                                     else
                                     {

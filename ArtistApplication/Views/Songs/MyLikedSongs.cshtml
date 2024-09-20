@@ -3,19 +3,20 @@
     ViewData["Title"] = "My Liked Songs";
 }
 
-<div class="container" style="max-width: 1000px;">
+<div class="container container-lg">
     <h2 class="text-center mb-4">Liked Songs</h2>
     <h6 class="text-center mb-4">These are the Songs that You have liked!</h6>
 
     @if (Model != null && Model.Any())
     {
-        <table class="table table-transparent custom-table">
+        <div class="container container-md">
+        <table class="table table-transparent custom-table border-dark">
             <thead>
                 <tr>
-                    <th style="color:white"></th>
-                    <th style="color:white"> </th>
-                    <th style="color:white"></th>
-                    <th style="color:white"></th>
+                    <th class="border-dark" style="color:white"></th>
+                    <th class="border-dark"  style="color:white"> </th>
+                    <th class="border-dark" style="color:white"></th>
+                    <th class="border-dark"  style="color:white"></th>
                 </tr>
             </thead>
             <tbody>
@@ -48,18 +49,21 @@
                             @if (!string.IsNullOrEmpty(item.Song?.FileName))
                             {
                                 var audioFileUrl = Url.Content($"~/uploads/{item.Song.FileName}");
-                                <audio controls class="audio-player">
-                                    <br />
-                                    <source src="@audioFileUrl" type="audio/mpeg">
-                                    Your browser does not support the audio element.
-                                </audio>
+                            
+                            <div class="custom-audio-player" data-audio-url="@audioFileUrl">
+                                <button class="play-pause-btn">
+                                        <i class="bi bi-play-fill"></i>
+                                </button>
+                                <input type="range" class="seek-bar" value="0" min="0" max="100" step="1">
+                                <span class="current-time">0:00</span> / <span class="duration">0:00</span>
+                                <input type="range" class="volume-bar" value="100" min="0" max="100" step="1">
+                            </div>
                             }
                             else
                             {
-                                <p>No audio file available.</p>
+                            <p>No audio file available.</p>
                             }
                         </td>
-
                         <td>
                             <div class="dropdown">
                                 <button class="btn dropdown-toggle custom-burger-icon" type="button" id="dropdownMenuButton-@item.Song?.Id" data-bs-toggle="dropdown" aria-expanded="false">
@@ -107,6 +111,7 @@
                 }
             </tbody>
         </table>
+        </div >
     }
     else
     {

@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\albums\\mylikedalbums.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\albums\\mylikedalbums.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\songs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\songs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\songs\\mylikedsongs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\songs\\mylikedsongs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\playlists\\mylikedplaylists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\playlists\\mylikedplaylists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\playlists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\playlists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\playlists\\mylikedplaylists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\playlists\\mylikedplaylists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\artists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,40 +39,48 @@
       "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\albums\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\playlists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\playlists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\albums\\mylikedalbums.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\albums\\mylikedalbums.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\playlists\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\playlists\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\artists\\mylikedartists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\artists\\mylikedartists.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\artists\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\artists\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\albums\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\albums\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\genres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\genres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\songs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\songs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\songs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\songs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\home\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\home\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\albums\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\albums\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\genres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\genres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\home\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\home\\browse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -85,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5562B251-570A-4F55-9B2F-C6A804014C6C}|ArtistApplication.Service\\ArtistApplication.Service.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication.service\\implementation\\likedalbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5562B251-570A-4F55-9B2F-C6A804014C6C}|ArtistApplication.Service\\ArtistApplication.Service.csproj|solutionrelative:artistapplication.service\\implementation\\likedalbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\artists\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\artists\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\albums\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -128,10 +140,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5562B251-570A-4F55-9B2F-C6A804014C6C}|ArtistApplication.Service\\ArtistApplication.Service.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication.service\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5562B251-570A-4F55-9B2F-C6A804014C6C}|ArtistApplication.Service\\ArtistApplication.Service.csproj|solutionrelative:artistapplication.service\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Repository\\Migrations\\20240918120312_migration-for-liked-album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ArtistApplication.Repository\\Migrations\\20240918120312_migration-for-liked-album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D193ED7E-CEF4-4E56-9B6D-284B25416386}|ArtistApplication.Repository\\ArtistApplication.Repository.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -208,10 +216,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5562B251-570A-4F55-9B2F-C6A804014C6C}|ArtistApplication.Service\\ArtistApplication.Service.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication.service\\interface\\ilikedalbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5562B251-570A-4F55-9B2F-C6A804014C6C}|ArtistApplication.Service\\ArtistApplication.Service.csproj|solutionrelative:artistapplication.service\\interface\\ilikedalbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\playlists\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\playlists\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27316BDA-9C11-4EE0-94C4-6625D52FEADC}|ArtistApplication.Domain\\ArtistApplication.Domain.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication.domain\\identity\\artistapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -299,10 +303,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\albums\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\albums\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\albums\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\views\\albums\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -456,6 +456,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{D193ED7E-CEF4-4E56-9B6D-284B25416386}|ArtistApplication.Repository\\ArtistApplication.Repository.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication.repository\\migrations\\20240916113854_addpictureurlplaylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D193ED7E-CEF4-4E56-9B6D-284B25416386}|ArtistApplication.Repository\\ArtistApplication.Repository.csproj|solutionrelative:artistapplication.repository\\migrations\\20240916113854_addpictureurlplaylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D193ED7E-CEF4-4E56-9B6D-284B25416386}|ArtistApplication.Repository\\ArtistApplication.Repository.csproj|c:\\users\\andrej\\desktop\\forportfolio\\fakefy\\artistapplication\\artistapplication.repository\\migrations\\20240918120312_migration-for-liked-album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D193ED7E-CEF4-4E56-9B6D-284B25416386}|ArtistApplication.Repository\\ArtistApplication.Repository.csproj|solutionrelative:artistapplication.repository\\migrations\\20240918120312_migration-for-liked-album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -465,7 +469,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -497,65 +501,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Playlists\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\Index.cshtml",
-              "RelativeToolTip": "ArtistApplication\\Views\\Playlists\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Songs\\Details.cshtml",
+              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Songs\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Songs\\Details.cshtml",
+              "RelativeToolTip": "ArtistApplication\\Views\\Songs\\Details.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAcwDYAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-14T21:49:42.782Z",
+              "WhenOpened": "2024-09-08T11:55:34.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MyLikedSongs.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Songs\\MyLikedSongs.cshtml",
-              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Songs\\MyLikedSongs.cshtml",
-              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Songs\\MyLikedSongs.cshtml",
-              "RelativeToolTip": "ArtistApplication\\Views\\Songs\\MyLikedSongs.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-13T11:38:21.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ArtistApplication\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\css\\site.css",
               "RelativeToolTip": "ArtistApplication\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAMgAAAAAAAAAAAAiwNwAAAAtAAAA",
+              "ViewState": "AQIAACgBAAAAAAAAAAAuwDQBAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-09-12T14:27:02.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ArtistApplication\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-08T13:22:34.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "MyLikedAlbums.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\MyLikedAlbums.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Albums\\MyLikedAlbums.cshtml",
               "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\MyLikedAlbums.cshtml",
               "RelativeToolTip": "ArtistApplication\\Views\\Albums\\MyLikedAlbums.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-18T20:08:00.266Z",
               "EditorCaption": ""
@@ -564,44 +542,148 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Playlists\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\Index.cshtml",
+              "RelativeToolTip": "ArtistApplication\\Views\\Playlists\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T21:49:42.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ArtistApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T13:22:34.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyLikedSongs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Songs\\MyLikedSongs.cshtml",
+              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Songs\\MyLikedSongs.cshtml",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Songs\\MyLikedSongs.cshtml",
+              "RelativeToolTip": "ArtistApplication\\Views\\Songs\\MyLikedSongs.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T11:38:21.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyLikedPlaylists.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\MyLikedPlaylists.cshtml",
+              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Playlists\\MyLikedPlaylists.cshtml",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\MyLikedPlaylists.cshtml",
+              "RelativeToolTip": "ArtistApplication\\Views\\Playlists\\MyLikedPlaylists.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T17:38:31.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\Details.cshtml",
+              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Playlists\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\Details.cshtml",
+              "RelativeToolTip": "ArtistApplication\\Views\\Playlists\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T22:31:41.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Artists\\Index.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Artists\\Index.cshtml",
               "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Artists\\Index.cshtml",
               "RelativeToolTip": "ArtistApplication\\Views\\Artists\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-08T14:26:11.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ArtistsController.cs",
-              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Controllers\\ArtistsController.cs",
-              "RelativeDocumentMoniker": "ArtistApplication\\Controllers\\ArtistsController.cs",
-              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Controllers\\ArtistsController.cs",
-              "RelativeToolTip": "ArtistApplication\\Controllers\\ArtistsController.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAAAGMAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:49:18.415Z",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Albums\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\Index.cshtml",
+              "RelativeToolTip": "ArtistApplication\\Views\\Albums\\Index.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T14:32:50.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "MyLikedArtists.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Artists\\MyLikedArtists.cshtml",
+              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Artists\\MyLikedArtists.cshtml",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Artists\\MyLikedArtists.cshtml",
+              "RelativeToolTip": "ArtistApplication\\Views\\Artists\\MyLikedArtists.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T20:30:43.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Artists\\Details.cshtml",
+              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Artists\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Artists\\Details.cshtml",
+              "RelativeToolTip": "ArtistApplication\\Views\\Artists\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T14:24:55.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\Details.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Albums\\Details.cshtml",
               "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\Details.cshtml",
               "RelativeToolTip": "ArtistApplication\\Views\\Albums\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB0AAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-08T14:35:38.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Songs\\Index.cshtml",
+              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Songs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Songs\\Index.cshtml",
+              "RelativeToolTip": "ArtistApplication\\Views\\Songs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-08T12:35:45.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -614,7 +696,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 21,
+              "Title": "ArtistsController.cs",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Controllers\\ArtistsController.cs",
+              "RelativeDocumentMoniker": "ArtistApplication\\Controllers\\ArtistsController.cs",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Controllers\\ArtistsController.cs",
+              "RelativeToolTip": "ArtistApplication\\Controllers\\ArtistsController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAGMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T11:49:18.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Shared\\_LoginPartial.cshtml",
@@ -622,25 +716,11 @@
               "RelativeToolTip": "ArtistApplication\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-08T17:14:04.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T17:14:04.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyLikedPlaylists.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\MyLikedPlaylists.cshtml",
-              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Playlists\\MyLikedPlaylists.cshtml",
-              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\MyLikedPlaylists.cshtml",
-              "RelativeToolTip": "ArtistApplication\\Views\\Playlists\\MyLikedPlaylists.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T17:38:31.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Genres\\Index.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Genres\\Index.cshtml",
@@ -648,25 +728,37 @@
               "RelativeToolTip": "ArtistApplication\\Views\\Genres\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T23:45:34.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T23:45:34.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MyLikedArtists.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Artists\\MyLikedArtists.cshtml",
-              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Artists\\MyLikedArtists.cshtml",
-              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Artists\\MyLikedArtists.cshtml",
-              "RelativeToolTip": "ArtistApplication\\Views\\Artists\\MyLikedArtists.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Albums\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\Edit.cshtml",
+              "RelativeToolTip": "ArtistApplication\\Views\\Albums\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T20:30:43.378Z",
+              "WhenOpened": "2024-09-08T14:35:20.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ArtistApplication\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ArtistApplication\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-19T21:15:44.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "AlbumsController.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Controllers\\AlbumsController.cs",
               "RelativeDocumentMoniker": "ArtistApplication\\Controllers\\AlbumsController.cs",
@@ -674,38 +766,11 @@
               "RelativeToolTip": "ArtistApplication\\Controllers\\AlbumsController.cs",
               "ViewState": "AQIAAFwAAAAAAAAAAAAUwG4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:50:43.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T11:50:43.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Albums\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\Index.cshtml",
-              "RelativeToolTip": "ArtistApplication\\Views\\Albums\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-08T14:32:50.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Songs\\Index.cshtml",
-              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Songs\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Songs\\Index.cshtml",
-              "RelativeToolTip": "ArtistApplication\\Views\\Songs\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-08T12:35:45.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Home\\Index.cshtml",
@@ -713,38 +778,11 @@
               "RelativeToolTip": "ArtistApplication\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAUwDoAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-08T17:19:31.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T17:19:31.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Songs\\Details.cshtml",
-              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Songs\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Songs\\Details.cshtml",
-              "RelativeToolTip": "ArtistApplication\\Views\\Songs\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-08T11:55:34.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Artists\\Details.cshtml",
-              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Artists\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Artists\\Details.cshtml",
-              "RelativeToolTip": "ArtistApplication\\Views\\Artists\\Details.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-08T14:24:55.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Browse.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Home\\Browse.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Home\\Browse.cshtml",
@@ -752,12 +790,11 @@
               "RelativeToolTip": "ArtistApplication\\Views\\Home\\Browse.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-08T17:27:22.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T17:27:22.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "PlaylistsController.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Controllers\\PlaylistsController.cs",
               "RelativeDocumentMoniker": "ArtistApplication\\Controllers\\PlaylistsController.cs",
@@ -765,12 +802,11 @@
               "RelativeToolTip": "ArtistApplication\\Controllers\\PlaylistsController.cs",
               "ViewState": "AQIAAFgAAAAAAAAAAAAIwG0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T15:00:28.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T15:00:28.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "SongsController.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Controllers\\SongsController.cs",
               "RelativeDocumentMoniker": "ArtistApplication\\Controllers\\SongsController.cs",
@@ -778,12 +814,11 @@
               "RelativeToolTip": "ArtistApplication\\Controllers\\SongsController.cs",
               "ViewState": "AQIAAFUAAAAAAAAAAAAowGoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:51:54.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T11:51:54.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "LikedPlaylist.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\Domain\\LikedPlaylist.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\Domain\\LikedPlaylist.cs",
@@ -791,12 +826,11 @@
               "RelativeToolTip": "ArtistApplication.Domain\\Domain\\LikedPlaylist.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T18:20:49.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T18:20:49.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "LikedAlbumService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Implementation\\LikedAlbumService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Implementation\\LikedAlbumService.cs",
@@ -804,12 +838,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Implementation\\LikedAlbumService.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwDQAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T11:15:26.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T11:15:26.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\Create.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Albums\\Create.cshtml",
@@ -817,12 +850,11 @@
               "RelativeToolTip": "ArtistApplication\\Views\\Albums\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-08T16:10:16.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T16:10:16.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "PlaylistSong.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\Domain\\PlaylistSong.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\Domain\\PlaylistSong.cs",
@@ -830,12 +862,11 @@
               "RelativeToolTip": "ArtistApplication.Domain\\Domain\\PlaylistSong.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T23:22:25.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T23:22:25.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Repository\\Implementation\\Repository.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Repository\\Implementation\\Repository.cs",
@@ -843,12 +874,11 @@
               "RelativeToolTip": "ArtistApplication.Repository\\Implementation\\Repository.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAEwDgAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:40:14.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T11:40:14.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Implementation\\UserService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Implementation\\UserService.cs",
@@ -856,12 +886,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Implementation\\UserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T21:59:48.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T21:59:48.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "LikedPlaylistService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Implementation\\LikedPlaylistService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Implementation\\LikedPlaylistService.cs",
@@ -869,12 +898,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Implementation\\LikedPlaylistService.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAwwC4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T11:15:37.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T11:15:37.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Playlist.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\Domain\\Playlist.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\Domain\\Playlist.cs",
@@ -882,22 +910,20 @@
               "RelativeToolTip": "ArtistApplication.Domain\\Domain\\Playlist.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T23:19:17.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T23:19:17.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "dbo.LikedPlaylists [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FakefyDataBase/True/SqlTable/dbo.LikedPlaylists.sql",
               "ToolTip": "dbo.LikedPlaylists [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-18T18:02:46.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T18:02:46.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Repository\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Repository\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -905,12 +931,11 @@
               "RelativeToolTip": "ArtistApplication.Repository\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:28:54.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T11:28:54.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Program.cs",
               "RelativeDocumentMoniker": "ArtistApplication\\Program.cs",
@@ -918,12 +943,11 @@
               "RelativeToolTip": "ArtistApplication\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:33:41.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T11:33:41.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 115,
               "Title": "20240918120312_migration-for-liked-album.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Repository\\Migrations\\20240918120312_migration-for-liked-album.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Repository\\Migrations\\20240918120312_migration-for-liked-album.cs",
@@ -931,12 +955,11 @@
               "RelativeToolTip": "ArtistApplication.Repository\\Migrations\\20240918120312_migration-for-liked-album.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T12:03:12.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T12:03:12.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "ILikedPlaylistService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Interface\\ILikedPlaylistService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Interface\\ILikedPlaylistService.cs",
@@ -944,12 +967,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Interface\\ILikedPlaylistService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T11:14:55.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T11:14:55.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "LikedArtistService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Implementation\\LikedArtistService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Implementation\\LikedArtistService.cs",
@@ -957,12 +979,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Implementation\\LikedArtistService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T11:15:17.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T11:15:17.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "ILikedArtistService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Interface\\ILikedArtistService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Interface\\ILikedArtistService.cs",
@@ -970,12 +991,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Interface\\ILikedArtistService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T11:14:19.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T11:14:19.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "LikedArtist.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\Domain\\LikedArtist.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\Domain\\LikedArtist.cs",
@@ -983,12 +1003,11 @@
               "RelativeToolTip": "ArtistApplication.Domain\\Domain\\LikedArtist.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T18:21:04.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T18:21:04.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Repository\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Repository\\ApplicationDbContext.cs",
@@ -996,12 +1015,11 @@
               "RelativeToolTip": "ArtistApplication.Repository\\ApplicationDbContext.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAowBcAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:27:43.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T11:27:43.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "LikedSongService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Implementation\\LikedSongService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Implementation\\LikedSongService.cs",
@@ -1009,12 +1027,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Implementation\\LikedSongService.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAwwA0AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T11:18:38.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T11:18:38.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "LikedAlbum.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\Domain\\LikedAlbum.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\Domain\\LikedAlbum.cs",
@@ -1022,12 +1039,11 @@
               "RelativeToolTip": "ArtistApplication.Domain\\Domain\\LikedAlbum.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T18:20:57.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T18:20:57.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "LikedSong.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\Domain\\LikedSong.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\Domain\\LikedSong.cs",
@@ -1035,12 +1051,11 @@
               "RelativeToolTip": "ArtistApplication.Domain\\Domain\\LikedSong.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T23:19:26.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T23:19:26.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "ILikedSongService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Interface\\ILikedSongService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Interface\\ILikedSongService.cs",
@@ -1048,12 +1063,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Interface\\ILikedSongService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T11:18:26.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T11:18:26.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ArtistApplication\\Controllers\\HomeController.cs",
@@ -1061,12 +1075,11 @@
               "RelativeToolTip": "ArtistApplication\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:33:50.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T11:33:50.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "GenresController.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Controllers\\GenresController.cs",
               "RelativeDocumentMoniker": "ArtistApplication\\Controllers\\GenresController.cs",
@@ -1074,12 +1087,11 @@
               "RelativeToolTip": "ArtistApplication\\Controllers\\GenresController.cs",
               "ViewState": "AQIAAHcAAAAAAAAAAAAuwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:51:20.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T11:51:20.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "SongService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Implementation\\SongService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Implementation\\SongService.cs",
@@ -1087,12 +1099,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Implementation\\SongService.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAwwCMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:42:11.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T11:42:11.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "PlaylistSongService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Implementation\\PlaylistSongService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Implementation\\PlaylistSongService.cs",
@@ -1100,12 +1111,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Implementation\\PlaylistSongService.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAowAsAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T14:41:46.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T14:41:46.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "PlaylistService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Implementation\\PlaylistService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Implementation\\PlaylistService.cs",
@@ -1113,12 +1123,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Implementation\\PlaylistService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T14:41:35.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T14:41:35.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "GenreService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Implementation\\GenreService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Implementation\\GenreService.cs",
@@ -1126,12 +1135,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Implementation\\GenreService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:42:04.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T11:42:04.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "ArtistService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Implementation\\ArtistService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Implementation\\ArtistService.cs",
@@ -1139,12 +1147,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Implementation\\ArtistService.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:41:58.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T11:41:58.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "AlbumService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Implementation\\AlbumService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Implementation\\AlbumService.cs",
@@ -1152,12 +1159,11 @@
               "RelativeToolTip": "ArtistApplication.Service\\Implementation\\AlbumService.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAmwC4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T11:41:49.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T11:41:49.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "ILikedAlbumService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Interface\\ILikedAlbumService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Interface\\ILikedAlbumService.cs",
@@ -1165,20 +1171,7 @@
               "RelativeToolTip": "ArtistApplication.Service\\Interface\\ILikedAlbumService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T11:14:41.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\Details.cshtml",
-              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Playlists\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\Details.cshtml",
-              "RelativeToolTip": "ArtistApplication\\Views\\Playlists\\Details.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-14T22:31:41.275Z"
+              "WhenOpened": "2024-09-18T11:14:41.779Z"
             },
             {
               "$type": "Document",
@@ -1194,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "ArtistApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\Identity\\ArtistApplicationUser.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\Identity\\ArtistApplicationUser.cs",
@@ -1206,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\Edit.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Playlists\\Edit.cshtml",
@@ -1218,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "dbo.AspNetUsers [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/FakefyDataBase/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "dbo.AspNetUsers [Data]",
@@ -1227,7 +1220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "IPlaylistService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Interface\\IPlaylistService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Interface\\IPlaylistService.cs",
@@ -1239,7 +1232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "Album.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\Domain\\Album.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\Domain\\Album.cs",
@@ -1251,7 +1244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Artists\\Edit.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Artists\\Edit.cshtml",
@@ -1263,7 +1256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "PlaylistViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\ViewModel\\PlaylistViewModel.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\ViewModel\\PlaylistViewModel.cs",
@@ -1275,7 +1268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\Create.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Playlists\\Create.cshtml",
@@ -1287,7 +1280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Playlists\\Delete.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Playlists\\Delete.cshtml",
@@ -1299,7 +1292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "SongViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\ViewModel\\SongViewModel.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\ViewModel\\SongViewModel.cs",
@@ -1323,7 +1316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Repository\\Implementation\\UserRepository.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Repository\\Implementation\\UserRepository.cs",
@@ -1335,7 +1328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Repository\\Interface\\IUserRepository.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Repository\\Interface\\IUserRepository.cs",
@@ -1347,7 +1340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "ISongService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Interface\\ISongService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Interface\\ISongService.cs",
@@ -1359,7 +1352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Interface\\IUserService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Interface\\IUserService.cs",
@@ -1371,7 +1364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "IPlaylistSongService.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Service\\Interface\\IPlaylistSongService.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Service\\Interface\\IPlaylistSongService.cs",
@@ -1383,7 +1376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "20240914145305_migrationAddedPlaylist.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Repository\\Migrations\\20240914145305_migrationAddedPlaylist.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Repository\\Migrations\\20240914145305_migrationAddedPlaylist.cs",
@@ -1395,7 +1388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "Song.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\Domain\\Song.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\Domain\\Song.cs",
@@ -1407,7 +1400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "LikedSongsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\ViewModel\\LikedSongsViewModel.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\ViewModel\\LikedSongsViewModel.cs",
@@ -1419,7 +1412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "SongDetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\ViewModel\\SongDetailsViewModel.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\ViewModel\\SongDetailsViewModel.cs",
@@ -1431,7 +1424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "AlbumDetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\ViewModel\\AlbumDetailsViewModel.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\ViewModel\\AlbumDetailsViewModel.cs",
@@ -1443,7 +1436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "ArtistDetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication.Domain\\ViewModel\\ArtistDetailsViewModel.cs",
               "RelativeDocumentMoniker": "ArtistApplication.Domain\\ViewModel\\ArtistDetailsViewModel.cs",
@@ -1455,7 +1448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\Delete.cshtml",
               "RelativeDocumentMoniker": "ArtistApplication\\Views\\Albums\\Delete.cshtml",
@@ -1476,18 +1469,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-08T11:33:58.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ArtistApplication\\Views\\Albums\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\ArtistApplication\\ArtistApplication\\Views\\Albums\\Edit.cshtml",
-              "RelativeToolTip": "ArtistApplication\\Views\\Albums\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-08T14:35:20.486Z"
             },
             {
               "$type": "Document",
