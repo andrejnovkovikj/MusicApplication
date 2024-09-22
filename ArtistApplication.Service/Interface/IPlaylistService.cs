@@ -10,6 +10,7 @@ namespace ArtistApplication.Service.Interface
 {
     public interface IPlaylistService
     {
+        List<Playlist> GetRandomPlaylists();
         void AddSongToPlaylist(Guid? playlistId, Guid songId);
         List<Playlist> GetPlaylists();
         Playlist GetPlaylistById(Guid? id);

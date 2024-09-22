@@ -9,6 +9,7 @@ namespace ArtistApplication.Service.Interface
 {
     public interface IAlbumService
     {
+        List<Album> GetRandomAlbums();
         List<Album> GetAlbums();
         Album GetAlbumById(Guid? id);
         void CreateNewAlbum(Album album);

@@ -18,9 +18,8 @@
     <table class="table table-transparent custom-table-artists border-dark">
         <thead>
             <tr>
-                <th class="border-dark" style="color:white">
-                    
-                </th>
+                <th class="border-dark" style="color:white"> </th>
+                <th class="border-dark" style="color:white">Artist </th>
                 <th class="border-dark"  style="color:white"></th>
             </tr>
         </thead>
@@ -28,6 +27,17 @@
             @foreach (var item in Model)
             {
                 <tr>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item?.PictureUrl))
+                        {
+                            var imageUrl = Url.Content(item.PictureUrl);
+                            <img src="@imageUrl" alt="Artist Picture" class="img-fluid image-margin" style="max-width: 50px; height: auto;" />
+                        }
+                        else
+                        {
+                            <p>No picture available.</p>
+                        }
+                    </td>
                     <td>
                         <a asp-action="Details" asp-route-id="@item.Id" style="color:white">
                             @item.Name

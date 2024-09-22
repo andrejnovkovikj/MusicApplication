@@ -1,67 +1,222 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="container mt-5">
-    <div class="text-center">
-        <h1 class="text-light display-4">Welcome To The Page!</h1>
-    </div>
 
     @if (User.Identity.IsAuthenticated)
     {
-        <div class="row mt-5 justify-content-center">
-            <div class="col-md-5">
-                <a href="@Url.Action("MyLikedSongs", "Songs")" class="text-decoration-none">
-                    <div class="card text-center " style="background-color: #2e2c2c; border-radius: 10px;">
-                        <div class="card-body">
-                            <h5 class="card-title text-light">Liked Songs</h5>
-                        </div>
+        <div class="container" >
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <span>Custom Playlists You might like!</span>
+                    <div class="row" style="margin-top: 10px;">
+                        @foreach (var playlist in Model.RecommendedPlaylists)
+                        {
+                            <div class="col-2 mb-3">
+                                <div class="card shadow-sm custom-card">
+                                    <a asp-controller="Playlists" asp-action="Details" asp-route-id="@playlist.Id" class="text-light">
+                                    <img src="@playlist.PictureUrl" class="img-fluid image-margin rounded" style="max-width: 150px; height: auto;">
+                                    <div class="card-body">
+                                        <h6 class="card-title text-light text-left">
+                                           
+                                                <p style="font-size:15px;">@playlist.Name</p>
+                                            
+                                        </h6>
+                                        <p class="card-text text-start" style="font-size:13px">@playlist.Description</p>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                        }
                     </div>
-                </a>
-            </div>
+                </div>
 
-            <div class="col-md-5">
-                <a href="@Url.Action("Index", "Playlists")" class="text-decoration-none">
-                    <div class="card text-center " style="background-color: #2e2c2c; border-radius: 10px;">
-                        <div class="card-body">
-                            <h5 class="card-title text-light">Playlists</h5>
-                        </div>
+                <div class="col-12 mb-4">
+                    <span>Recommended Songs</span>
+                    <div class="table-responsive">
+                        <table class="table table-transparent border-dark text-left" style="margin-top:5px">
+                            <thead>
+                                <tr>
+                                    <th class="border-dark" style="color:white"></th>
+                                    <th class="border-dark" style="color:white">Title </th>
+                                    <th class="border-dark" style="color:white">Artist</th>
+                                    <th class="border-dark" style="color:white"></th>
+                                    <th class="border-dark" style="color:white"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.RecommendedSongs)
+                                {
+                                    <tr>
+                                        <td>
+                                            @if (!string.IsNullOrEmpty(item.Album?.PictureUrl))
+                                            {
+                                                var imageUrl = Url.Content(item.Album.PictureUrl);
+                                                <img src="@imageUrl" alt="Album Picture" class="img-fluid image-margin" style="max-width: 50px; height: auto;" />
+                                            }
+                                            else
+                                            {
+                                                <p>No picture available.</p>
+                                            }
+                                        </td>
+
+                                        <td>
+                                            <div>
+                                                <strong style="color:white;">@item.Song?.Title</strong>
+                                                <br />
+                                                <em style="color:white;">@item.Album?.Title</em>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <a asp-controller="Artists" asp-action="Details" asp-route-id="@item.Artist.Id">
+                                                <b style="color:white;">@item.Artist?.Name</b>
+                                                </a>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            @if (!string.IsNullOrEmpty(item.Song?.FileName))
+                                            {
+                                                var audioFileUrl = Url.Content($"~/uploads/{item.Song.FileName}");
+
+                                                <div class="custom-audio-player" data-audio-url="@audioFileUrl">
+                                                    <button class="play-pause-btn">
+                                                        <i class="bi bi-play-fill"></i>
+                                                    </button>
+                                                    <input type="range" class="seek-bar" value="0" min="0" max="100" step="1">
+                                                    <span class="current-time">0:00</span> / <span class="duration">0:00</span>
+                                                    <input type="range" class="volume-bar" value="100" min="0" max="100" step="1">
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <p>No audio file available.</p>
+                                            }
+                                        </td>
+
+                                        <td>
+                                            <div class="dropdown">
+                                                <button class="btn dropdown-toggle custom-burger-icon" type="button" id="dropdownMenuButton-@item.Song.Id" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <span class="burger-lines"></span>
+                                                    <span class="burger-lines"></span>
+                                                    <span class="burger-lines"></span>
+                                                </button>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton-@item.Song.Id">
+                                                    <li>
+                                                        @if (ViewBag.LikedSongs != null && ((List<Guid>)ViewBag.LikedSongs).Contains(item.Song.Id))
+                                                        {
+                                                            @using (Html.BeginForm("Unlike", "Songs", FormMethod.Post, new { @id = "unlike-form-" + item.Song.Id }))
+                                                            {
+                                                                <input type="hidden" name="songId" value="@item.Song.Id" />
+                                                                <button type="submit" class="dropdown-item" onclick="handleUnlike('@item.Song.Id'); return false;">Unlike</button>
+                                                            }
+                                                        }
+                                                        else
+                                                        {
+                                                            @using (Html.BeginForm("Like", "Songs", FormMethod.Post, new { @id = "like-form-" + item.Song.Id }))
+                                                            {
+                                                                <input type="hidden" name="songId" value="@item.Song.Id" />
+                                                                <button type="submit" class="dropdown-item" onclick="handleLike('@item.Song.Id'); return false;">Like</button>
+                                                            }
+                                                        }
+                                                    </li>
+                                                    <li>
+                                                        <a asp-action="Edit" asp-route-id="@item.Song.Id" class="dropdown-item">Edit</a>
+                                                    </li>
+                                                    <li>
+                                                        <a asp-action="Details" asp-route-id="@item.Song.Id" class="dropdown-item">Details</a>
+                                                    </li>
+                                                    <li>
+                                                        @using (Html.BeginForm("Delete", "Songs", FormMethod.Post, new { @id = "delete-form-" + item.Song.Id }))
+                                                        {
+                                                            @Html.AntiForgeryToken()
+                                                            <input type="hidden" name="songId" value="@item.Song.Id" />
+                                                            <button type="submit" class="dropdown-item" onclick="return confirm('Are you sure you want to delete this item?');">Delete</button>
+                                                        }
+                                                    </li>
+                                                    <li>
+                                                        @if (ViewBag.Playlists != null && ((List<ArtistApplication.Domain.Domain.Playlist>)ViewBag.Playlists).Any())
+                                                        {
+                                                            @using (Html.BeginForm("AddToPlaylist", "Songs", FormMethod.Post))
+                                                            {
+                                                                <input type="hidden" name="songId" value="@item.Song.Id" />
+                                                                <div class="form-group">
+                                                                    <select name="playlistId" class="form-control">
+                                                                        <option value="">Select Playlist</option>
+                                                                        @foreach (var playlist in (List<ArtistApplication.Domain.Domain.Playlist>)ViewBag.Playlists)
+                                                                        {
+                                                                            <option value="@playlist.Id">@playlist.Name</option>
+                                                                        }
+                                                                    </select>
+                                                                </div>
+                                                                <button type="submit" class="dropdown-item">Add to Playlist</button>
+                                                            }
+                                                        }
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
                     </div>
-                </a>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <span>Artists</span>
+                    <div class="row" style="margin-top: 10px;">
+                        @foreach (var artist in Model.RecommendedArtists)
+                        {
+                            <div class="col-2 mb-3">
+                                <div class="card shadow-sm custom-card">
+                                    <a asp-controller="Artists" asp-action="Details" asp-route-id="@artist.Id" class="text-light">
+                                    <img src="@artist.PictureUrl" class="img-fluid image-margin-artists" style="max-width: 100px; height: auto;">
+                                    <div class="card-body">
+                                        <h6 class="card-title text-light text-center" style="font-size:15px;">
+                                                @artist.Name
+                                        </h6>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <span>Some Albums You might like!</span>
+                    <div class="row" style="margin-top: 10px;">
+                        @foreach (var album in Model.RecommendedAlbums)
+                        {
+                            <div class="col-2 mb-3">
+                                <div class="card shadow-sm custom-card">
+                                    <a asp-controller="Albums" asp-action="Details" asp-route-id="@album.Id" class="text-light">
+
+                                        <img src="@album.PictureUrl" class="img-fluid image-margin rounded" style="max-width: 150px; height: auto;">
+                                        <div class="card-body">
+                                            <h6 class="card-title text-light text-left" style="font-size:15px;">
+                                                @album.Title
+                                            </h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+                
+
+                
             </div>
         </div>
 
-        <div class="row mt-5 justify-content-center">
-            <div class="col-md-5">
-                <a href="@Url.Action("Browse", "Home")" class="text-decoration-none">
-                    <div class="card text-center " style="background-color: #2e2c2c; border-radius: 10px;">
-                        <div class="card-body">
-                            <h5 class="card-title text-light">Browse</h5>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-5">
-                <a href="@Url.Action("Privacy", "Home")" class="text-decoration-none">
-                    <div class="card text-center " style="background-color: #2e2c2c; border-radius: 10px;">
-                        <div class="card-body">
-                            <h5 class="card-title text-light">Privacy</h5>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="row mt-5 justify-content-center">
-            <div class="col-md-5">
-                <a href="@Url.Action("MyLikedPlaylists", "Playlists")" class="text-decoration-none">
-                    <div class="card text-center " style="background-color: #2e2c2c; border-radius: 10px;">
-                        <div class="card-body">
-                            <h5 class="card-title text-light">Liked Playlists</h5>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
+
     }
     else
     {

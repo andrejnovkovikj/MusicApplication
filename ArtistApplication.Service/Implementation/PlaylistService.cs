@@ -16,7 +16,8 @@ namespace ArtistApplication.Service.Implementation
         private readonly IRepository<Playlist> _playlistRepository;
         private readonly IRepository<Song> _songRepository;
         private readonly IRepository<PlaylistSong> _playlistSongRepository;
-
+        
+        private const int RandomItemCount = 4;
         public PlaylistService(
             IRepository<Playlist> playlistRepository,
             IRepository<Song> songRepository,
@@ -26,6 +27,16 @@ namespace ArtistApplication.Service.Implementation
             _songRepository = songRepository;
             _playlistSongRepository = playlistSongRepository;
         }
+        public  List<Playlist> GetRandomPlaylists()
+        {
+            var playlists =  _playlistRepository.GetAll()
+                .OrderBy(r => Guid.NewGuid())
+                .Take(RandomItemCount)
+                .ToList();
+            return playlists;
+        }
+
+
         public IEnumerable<SongViewModel> GetSongsByPlaylistId(Guid playlistId)
         {
             var playlistSongs = _playlistSongRepository.GetAll()

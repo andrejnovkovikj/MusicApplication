@@ -1,6 +1,7 @@
 ﻿using ArtistApplication.Domain.Domain;
 using ArtistApplication.Repository.Interface;
 using ArtistApplication.Service.Interface;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,15 @@ namespace ArtistApplication.Service.Implementation
     public class ArtistService : IArtistService
     {
         private readonly IRepository<Artist> _artistRepository;
+        private const int RandomItemCount = 5;
+        public List<Artist> GetRandomArtists()
+        {
+            var artists = _artistRepository.GetAll()
+                .OrderBy(r => Guid.NewGuid())
+                .Take(RandomItemCount)
+                .ToList();
+            return artists;
+        }
         public ArtistService(IRepository<Artist> artistRepository)
         {
             _artistRepository = artistRepository;

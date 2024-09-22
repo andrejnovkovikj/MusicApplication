@@ -13,7 +13,7 @@ namespace ArtistApplication.Domain.Domain
         public Album? Album { get; set; }
         public TimeSpan Length { get; set; }
         public string? FileName { get; set; }
-        public virtual ICollection<PlaylistSong> PlaylistSongs { get; set; } // Many-to-many relationship
+        public virtual ICollection<PlaylistSong> PlaylistSongs { get; set; } 
 
     }
 }

@@ -110,6 +110,28 @@ footer {
 .text-custom {
     color: black;
 }
+.custom-card {
+    background-color: #141414;
+    border-color: #141414;
+    
+    color: white;
+}
+    .custom-card img {
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+        max-width: 100%;
+        height: auto; 
+    }
+.image-margin-artists {
+    border-radius: 50px; 
+}
+.image-margin {
+    border-radius: 10px;
+}
+.card-text {
+    text-align: left; 
+}
 
 .btn-custom {
     background: #2e2c2c;

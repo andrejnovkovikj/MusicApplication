@@ -9,6 +9,7 @@ namespace ArtistApplication.Service.Interface
 {
     public interface IArtistService
     {
+        List<Artist> GetRandomArtists();
         List<Artist> GetArtists();
         Artist GetArtistById(Guid? id);
         void CreateNewArtist(Artist artist);
