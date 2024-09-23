@@ -216,7 +216,7 @@ namespace ArtistApplication.Web.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(Guid id)
         {
-            _albumService.DeleteAlbum(id);
+            _artistService.DeleteArtist(id);
             return RedirectToAction(nameof(Index));
         }
     }

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArtistApplication.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfff1cee1958dd18ba0d2659fb88127c3d6bb698")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fafcae9be6907c08ede78eb0c306554a2f04894e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArtistApplication.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArtistApplication.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

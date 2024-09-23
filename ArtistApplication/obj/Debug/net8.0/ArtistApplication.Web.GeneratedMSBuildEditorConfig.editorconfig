@@ -17,187 +17,187 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ArtistApplication.Web
 build_property.RootNamespace = ArtistApplication.Web
-build_property.ProjectDir = C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication\
+build_property.ProjectDir = C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\MusicApplication\ArtistApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\ArtistApplication\ArtistApplication
+build_property.MSBuildProjectDirectory = C:\Users\Andrej\Desktop\ForPortfolio\Fakefy\MusicApplication\ArtistApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Albums/Create.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Albums/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Albums/Delete.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Albums/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Albums/Details.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Albums/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Albums/Edit.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Albums/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Albums/Index.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Albums/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Albums/MyLikedAlbums.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Albums/MyLikedAlbums.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1zXE15TGlrZWRBbGJ1bXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Artists/Create.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Artists/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Artists/Delete.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Artists/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Artists/Details.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Artists/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Artists/Edit.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Artists/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Artists/Index.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Artists/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Artists/MyLikedArtists.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Artists/MyLikedArtists.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aXN0c1xNeUxpa2VkQXJ0aXN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Genres/Create.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Genres/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Genres/Delete.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Genres/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Genres/Details.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Genres/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Genres/Edit.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Genres/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Genres/Index.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Genres/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Home/Browse.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Home/Browse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCcm93c2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Home/Index.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Home/Privacy.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/PlaylistSongs/Create.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/PlaylistSongs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RTb25nc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/PlaylistSongs/Delete.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/PlaylistSongs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RTb25nc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/PlaylistSongs/Details.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/PlaylistSongs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RTb25nc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/PlaylistSongs/Edit.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/PlaylistSongs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RTb25nc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/PlaylistSongs/Index.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/PlaylistSongs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RTb25nc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Playlists/Create.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Playlists/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Playlists/Delete.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Playlists/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Playlists/Details.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Playlists/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Playlists/Edit.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Playlists/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Playlists/Index.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Playlists/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Playlists/MyLikedPlaylists.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Playlists/MyLikedPlaylists.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RzXE15TGlrZWRQbGF5bGlzdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Shared/Error.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Songs/Create.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Songs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Songs/Delete.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Songs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Songs/Details.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Songs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Songs/Edit.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Songs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Songs/Index.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Songs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Songs/MyLikedSongs.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Songs/MyLikedSongs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29uZ3NcTXlMaWtlZFNvbmdzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/_ViewImports.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/_ViewStart.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/ArtistApplication/ArtistApplication/Views/Shared/_Layout.cshtml]
+[C:/Users/Andrej/Desktop/ForPortfolio/Fakefy/MusicApplication/ArtistApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z4fwglpdre

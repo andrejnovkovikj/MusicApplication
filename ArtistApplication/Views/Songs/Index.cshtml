@@ -102,12 +102,8 @@
                                         <a asp-action="Details" asp-route-id="@item.Song.Id" class="dropdown-item">Details</a>
                                     </li>
                                     <li>
-                                        @using (Html.BeginForm("Delete", "Songs", FormMethod.Post, new { @id = "delete-form-" + item.Song.Id }))
-                                        {
-                                            @Html.AntiForgeryToken()
-                                            @Html.Hidden("songId", item.Song.Id)
-                                            <button type="submit" class="dropdown-item" onclick="return confirm('Are you sure you want to delete this item?');">Delete</button>
-                                        }
+                                        <a asp-action="Delete" asp-route-id="@item.Song.Id" class=" dropdown-item">Delete</a>
+
                                     </li>
                                     <li>
                                         @if (ViewBag.Playlists != null && ((List<ArtistApplication.Domain.Domain.Playlist>)ViewBag.Playlists).Any())

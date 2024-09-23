@@ -992,6 +992,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\0ae225a9-1de1-4d63-a225-f7536b783338_Travis Scott - FE!N (Official Audio) ft. Playboi Carti.mp3))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\167ea4ee-ee52-4d32-991a-6acb2bacf4cc_I'm In It.mp3))">
+      <SourceType>Package</SourceType>
+      <SourceId>ArtistApplication.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ArtistApplication.Web</BasePath>
+      <RelativePath>uploads/167ea4ee-ee52-4d32-991a-6acb2bacf4cc_I'm In It.mp3</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\167ea4ee-ee52-4d32-991a-6acb2bacf4cc_I'm In It.mp3))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\202e3080-367c-47ec-9d8f-c1ac53a67302_Travis Scott - MODERN JAM (Official Audio) ft. Teezo Touchdown (2).mp3))">
       <SourceType>Package</SourceType>
       <SourceId>ArtistApplication.Web</SourceId>
