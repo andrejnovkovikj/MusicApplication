@@ -83,7 +83,7 @@ namespace ArtistApplication.Web.Controllers
             if (userId != null)
             {
                 var likedSongs = _likedSongService.GetLikedSongsByUser(userId);
-
+                var playlists = _playlistService.GetPlaylists();
                 var viewModel = new List<LikedSongsViewModel>();
 
                 foreach (var song in likedSongs)
@@ -102,7 +102,7 @@ namespace ArtistApplication.Web.Controllers
                 }
 
                 ViewBag.LikedSongs = likedSongs.Select(ls => ls.Id).ToList();
-
+                ViewBag.Playlists = playlists;
                 return View(viewModel);
             }
 

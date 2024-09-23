@@ -23,8 +23,9 @@ namespace ArtistApplication.Web.Controllers
             private readonly ISongService _songService;
             private readonly ILikedSongService _likedSongService;
             private readonly ILikedAlbumService _likedAlbumService;
+            private readonly IPlaylistService _playlistService;
 
-            public AlbumsController(IAlbumService albumService, IArtistService artistService, IGenreService genreService, ISongService songService,ILikedSongService likedSongService,ILikedAlbumService likedAlbumService)
+            public AlbumsController(IAlbumService albumService, IArtistService artistService, IGenreService genreService, ISongService songService,ILikedSongService likedSongService,ILikedAlbumService likedAlbumService,IPlaylistService playlistService)
             {
                 _albumService = albumService;
                 _artistService = artistService;
@@ -32,6 +33,7 @@ namespace ArtistApplication.Web.Controllers
                 _songService = songService;
                 _likedSongService = likedSongService;
                 _likedAlbumService = likedAlbumService;
+                _playlistService = playlistService;
             }
         // LikedAlbums part//
 
@@ -136,7 +138,7 @@ namespace ArtistApplication.Web.Controllers
 
             var artist = _artistService.GetArtistById(album.ArtistId);
             var genre = _genreService.GetGenreById(album.GenreId);
-
+            var playlists = _playlistService.GetPlaylists();
             var allSongs = _songService.GetSongs();
             var songs = allSongs.Where(s => s.AlbumId == id).ToList();
 
@@ -151,7 +153,7 @@ namespace ArtistApplication.Web.Controllers
                 Songs = songs,
                 LikedSongIds = likedSongIds
             };
-
+            ViewBag.Playlists = playlists;
             return View(viewModel);
         }
 

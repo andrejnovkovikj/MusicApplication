@@ -116,6 +116,25 @@
                                         <a asp-action="Delete" asp-route-id="@item.Id" class="dropdown-item">Delete</a>
 
                                     </li>
+                                    <li>
+                                        @if (ViewBag.Playlists != null && ((List<ArtistApplication.Domain.Domain.Playlist>)ViewBag.Playlists).Any())
+                                        {
+                                            @using (Html.BeginForm("AddToPlaylist", "Songs", FormMethod.Post))
+                                            {
+                                                @Html.Hidden("songId", item.Id)
+                                                <div class="form-group">
+                                                    <select name="playlistId" class="form-control">
+                                                        <option value="">Select Playlist</option>
+                                                        @foreach (var playlist in (List<ArtistApplication.Domain.Domain.Playlist>)ViewBag.Playlists)
+                                                        {
+                                                            <option value="@playlist.Id">@playlist.Name</option>
+                                                        }
+                                                    </select>
+                                                </div>
+                                                <button type="submit" class="dropdown-item">Add to Playlist</button>
+                                            }
+                                        }
+                                    </li>
                                 </ul>
                             </div>
                         </td>
