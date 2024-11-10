@@ -9,8 +9,7 @@ COPY ArtistApplication.Service/ArtistApplication.Service.csproj ArtistApplicatio
 COPY ArtistApplication/ArtistApplication.Web.csproj ArtistApplication/
 
 # Restore dependencies
-WORKDIR /app/ArtistApplication
-RUN dotnet restore
+RUN dotnet restore ArtistApplication/ArtistApplication.Web.csproj
 
 # Copy the entire project files
 COPY . .
@@ -26,5 +25,5 @@ COPY --from=build /app/publish .
 # Expose port 80 for the application
 EXPOSE 80
 
-# Start the application
-ENTRYPOINT ["dotnet", "ArtistApplication.dll"]
+# Start the application with the correct DLL
+ENTRYPOINT ["dotnet", "ArtistApplication.Web.dll"]
