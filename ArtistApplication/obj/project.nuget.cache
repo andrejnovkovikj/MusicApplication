@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hq0UVQ4c0fAenoV4Qkfn250yYEQ5UUDS2u0UHMQXd/HTIWIlx14PL+a5473AQNlnZyAWnrQHuZOaAh8nDr51hQ==",
+  "dgSpecHash": "2/Ugo98InYnjBROPRYGi7tHhXQLcp1xoLJLTplCQ9wzS6qirK3h1hSFvIiHf3cjSAA1yehWmv+T8R3L6wCaFTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\MusicApplication\\ArtistApplication\\ArtistApplication.Web.csproj",
+  "projectFilePath": "C:\\Users\\Andrej\\Desktop\\Fakefy\\MusicApplication\\ArtistApplication\\ArtistApplication.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrej\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Andrej\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

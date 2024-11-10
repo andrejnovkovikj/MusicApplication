@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QiYAjGlkBTNXqYrE1m9/zItEUxU5cCYvXk3c5NuNiMZ4/OLgcxGhZaMFBvQPSWaNtr0P43LaNkOBcPTDYT9fIg==",
+  "dgSpecHash": "BNrOFq5NQskIcNpJXUD5LuxrG5ZLjEfAAkREQLRFhT5rPzYQKsNgsnhuoGGQsPv5eCGWzBOr4U0CDu3he7h2tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrej\\Desktop\\ForPortfolio\\Fakefy\\MusicApplication\\ArtistApplication.Domain\\ArtistApplication.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Andrej\\Desktop\\Fakefy\\MusicApplication\\ArtistApplication.Domain\\ArtistApplication.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrej\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.8\\microsoft.aspnetcore.cryptography.internal.8.0.8.nupkg.sha512",
     "C:\\Users\\Andrej\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.8\\microsoft.aspnetcore.cryptography.keyderivation.8.0.8.nupkg.sha512",
