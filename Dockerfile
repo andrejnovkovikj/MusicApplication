@@ -10,13 +10,13 @@ COPY ArtistApplication/ArtistApplication.Web.csproj ArtistApplication/
 
 # Restore dependencies
 WORKDIR /app/ArtistApplication
-RUN dotnet restore ../ArtistApplication/ArtistApplication.Web.csproj
+RUN dotnet restore
 
 # Copy the entire project files
 COPY . .
 
 # Build and publish the Web project to a folder named /app/publish
-RUN dotnet publish -c Release -o /app/publish
+RUN dotnet publish ArtistApplication.Web/ArtistApplication.Web.csproj -c Release -o /app/publish
 
 # Use the official .NET runtime image to run the application
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
