@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Andrej\\Desktop\\Fakefy\\MusicApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\fakefy\\musicapplication\\artistapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\fakefy\\musicapplication\\artistapplication\\artistapplication.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\artistapplication.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|c:\\users\\andrej\\desktop\\fakefy\\musicapplication\\artistapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9832EF34-5A09-44A5-8273-691BBAFC1ECB}|ArtistApplication\\ArtistApplication.Web.csproj|solutionrelative:artistapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{27316BDA-9C11-4EE0-94C4-6625D52FEADC}|ArtistApplication.Domain\\ArtistApplication.Domain.csproj|c:\\users\\andrej\\desktop\\fakefy\\musicapplication\\artistapplication.domain\\artistapplication.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -488,7 +488,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -520,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ArtistApplication.Web.csproj",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\Fakefy\\MusicApplication\\ArtistApplication\\ArtistApplication.Web.csproj",
               "RelativeDocumentMoniker": "ArtistApplication\\ArtistApplication.Web.csproj",
@@ -533,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Andrej\\Desktop\\Fakefy\\MusicApplication\\ArtistApplication\\appsettings.json",
               "RelativeDocumentMoniker": "ArtistApplication\\appsettings.json",
@@ -567,8 +567,7 @@
               "RelativeToolTip": "ArtistApplication.Domain\\Identity\\ArtistApplicationUser.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAAAwAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T23:10:24.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T23:10:24.3Z"
             },
             {
               "$type": "Document",
