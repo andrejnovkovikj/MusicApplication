@@ -2,11 +2,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /app
 
-# Copy and restore dependencies for each project
-COPY ArtistApplication.Domain/ArtistApplication.Domain.csproj ArtistApplication.Domain/
-COPY ArtistApplication.Repository/ArtistApplication.Repository.csproj ArtistApplication.Repository/
-COPY ArtistApplication.Service/ArtistApplication.Service.csproj ArtistApplication.Service/
+# Copy the .csproj files for each part of the application
 COPY ArtistApplication.Web/ArtistApplication.Web.csproj ArtistApplication.Web/
+COPY ArtistApplication.Service/ArtistApplication.Service.csproj ArtistApplication.Service/
+COPY ArtistApplication.Repository/ArtistApplication.Repository.csproj ArtistApplication.Repository/
+COPY ArtistApplication/ArtistApplication.Web.csproj ArtistApplication/
 
 # Restore dependencies
 WORKDIR /app/ArtistApplication.Web
